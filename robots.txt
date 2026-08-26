@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mohui373.github.io/Xuan/sitemap.xml
+Sitemap: https://xuan.land/sitemap.xml
