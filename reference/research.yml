@@ -1,0 +1,69 @@
+streams:
+  - number: "01"
+    slug: reassignment-setback
+    title: 受挫、说服与目标追求
+    english_title: Setbacks, Persuasion & Goal Pursuit
+    card_title: 调剂相关挫折：为什么自我说服更加有效？
+    paper_title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+    status: Under Review
+    status_key: review
+    question: 当原有目标无法继续时，人们如何重新投入一个并非最初选择的替代目标？
+    summary: 比较自我说服与他人说服，考察个体经历调剂相关挫折后如何重建目标承诺、信心与持续投入。
+    tags: [Self-Persuasion, Goal Commitment, Setbacks]
+    design:
+      - 三个预注册实验
+      - 学生社团部门调剂情境
+      - Hamlet 剧场角色调剂情境
+      - Charging Task 与 Slider Task 行为测量
+    diagram:
+      - 调剂相关挫折
+      - 自我说服
+      - 对自身生成理由的认可
+      - 信心与希望
+      - 目标承诺与持续投入
+    note: 稿件正在审稿中；不公开投稿期刊、样本量或未确认链接。
+
+  - number: "02"
+    slug: moral-reminders
+    title: 社会规范与道德决策
+    english_title: Social Norms & Moral Decision-Making
+    card_title: "Who Ignores the Rules?"
+    paper_title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
+    status: In Preparation
+    status_key: preparation
+    question: 为什么同样的道德提醒，对不同的人并不具有相同效果？
+    summary: 研究道德规则启动与成就动机类型如何共同影响作弊行为与规则遵从。
+    tags: [Moral Reminders, Achievement Motivation, Cheating]
+    design:
+      - 2 × 2 被试间实验设计
+      - 成就动机类型：MAF vs. MAS
+      - 启动条件：道德规则启动 vs. 空白屏幕控制
+      - 大学生样本 N = 213
+    diagram:
+      - 道德规则提醒
+      - × 成就动机类型
+      - 作弊行为与规则遵从
+    note: 稿件准备中；当前不是已发表论文，也不展示虚构期刊或预印本链接。
+
+  - number: "03"
+    slug: distilled-colleague
+    title: AI、组织变革与员工行为
+    english_title: AI, Organizational Change & Employee Behavior
+    card_title: 被“蒸馏”的同事
+    paper_title: ""
+    status: Ongoing Research
+    status_key: ongoing
+    question: 人们是否会把“被 AI 替代”和“因传统组织原因被裁员”理解为两种性质不同的事件？
+    summary: 比较 AI 驱动裁员与常规裁员，关注裁员幸存者如何重新评价知识、岗位安全、组织关系与后续工作行为。
+    tags: [AI Layoffs, Survivor Reactions, Knowledge Hiding]
+    design:
+      - AI 驱动裁员 vs. 常规裁员
+      - 关注知识隐藏与工作态度
+      - 关注自身知识价值与工作安全相关感知
+      - 具体理论模型与变量结构将随项目推进更新
+    diagram:
+      - AI 驱动裁员 vs. 常规裁员
+      - 幸存员工对事件的解释
+      - 知识、岗位与组织关系评价
+      - 知识隐藏与工作态度
+    note: Conceptual / Ongoing。尚无可公开的数据、统计结果、正式假设或投稿状态。
