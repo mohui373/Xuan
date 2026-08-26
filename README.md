@@ -46,19 +46,19 @@
 
 ## 最常修改的文件
 
-| 内容 | 文件 |
-| --- | --- |
-| 网站名称、简介与部署设置 | `_config.yml`、`_config_xuan.yml` |
-| 首页 | `_pages/about.md` |
-| 研究页面 | `_pages/research.md` |
-| 三个研究方向的数据 | `_data/research.yml` |
-| 论文页面 | `_pages/publications.md` |
-| 论文与手稿 BibTeX | `_bibliography/papers.bib` |
-| 项目页面 | `_pages/projects.md`、`_projects/` |
-| CV 页面 | `_pages/cv.md` |
-| 教育、经历、技能与荣誉 | `_data/cv.yml` |
-| 英文入口 | `_pages/en.md` |
-| 头像 | `assets/img/profile-bole.jpg` |
+| 内容                     | 文件                               |
+| ------------------------ | ---------------------------------- |
+| 网站名称、简介与部署设置 | `_config.yml`、`_config_xuan.yml`  |
+| 首页                     | `_pages/about.md`                  |
+| 研究页面                 | `_pages/research.md`               |
+| 三个研究方向的数据       | `_data/research.yml`               |
+| 论文页面                 | `_pages/publications.md`           |
+| 论文与手稿 BibTeX        | `_bibliography/papers.bib`         |
+| 项目页面                 | `_pages/projects.md`、`_projects/` |
+| CV 页面                  | `_pages/cv.md`                     |
+| 教育、经历、技能与荣誉   | `_data/cv.yml`                     |
+| 英文入口                 | `_pages/en.md`                     |
+| 头像                     | `assets/img/profile-bole.jpg`      |
 
 `reference/` 保存旧版学术主页的内容快照，仅用于核对和重新设计时参考。正式网页内容以根目录下的 `_pages/`、`_data/`、`_bibliography/` 和 `_projects/` 为准。
 
