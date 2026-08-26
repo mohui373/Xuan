@@ -1,136 +1,62 @@
-# Xuan 学术网站编辑指南
+# 网站编辑与结构指南
 
-本指南用于说明如何在 `mohui373/Xuan` 仓库中维护个人学术网站。
+这份指南对应 [mohui373/Xuan](https://github.com/mohui373/Xuan)。日常只需在 GitHub 网页编辑 `main` 分支，提交后 GitHub Actions 会自动更新网站。
 
-日常修改建议直接在 GitHub 网页完成，不需要在 Windows 本地安装 Ruby、Jekyll、MSYS2 或 Docker。
+## 网站由什么组成
 
-## 1. 首页
+```text
+_config_xuan.yml                 全站名称、域名、SEO 与功能设置
+_pages/
+  about.md                       首页文案与模块顺序
+  research.md                    研究页框架
+  publications.md                论文页框架
+  projects.md                    项目总览框架
+  cv.md                          简历页框架
+  en.md                          英文入口
+_data/
+  research.yml                   研究方向的可复用数据
+  cv.yml                         教育、经历、技能、获奖
+  socials.yml                    公开邮箱与外部链接
+_bibliography/papers.bib         论文与手稿
+_projects/paper-to-paradigm.md   项目详情
+assets/img/profile-bole.jpg      首页头像
+_sass/_site.scss                 自定义视觉风格
+```
 
-文件：`_pages/about.md`
+页面从数据文件读取内容：`_data/research.yml` 同时驱动首页与研究页；`_data/cv.yml` 驱动简历页；`papers.bib` 驱动论文页。因此同一项资料通常只需改一次。
 
-主要用于修改：
+## 逐项直接编辑
 
-- 姓名与身份介绍
-- 研究简介
-- 核心研究问题
-- 首页展示的研究方向
-- 首页项目介绍
-- 方法与工具展示
+| 内容                       | 直接编辑                                                                                          | 修改提示                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 首页姓名、简介、首页各模块 | [about.md](https://github.com/mohui373/Xuan/edit/main/_pages/about.md)                            | 修改文字即可；不要随意删掉 `{% for %}` 等 Liquid 标记。           |
+| 研究方向与状态             | [research.yml](https://github.com/mohui373/Xuan/edit/main/_data/research.yml)                     | 注意 YAML 缩进；每一层统一保留两个空格。                          |
+| 论文与手稿                 | [papers.bib](https://github.com/mohui373/Xuan/edit/main/_bibliography/papers.bib)                 | 只填写已确认的作者、题目、状态和链接。                            |
+| CV、获奖与技能             | [cv.yml](https://github.com/mohui373/Xuan/edit/main/_data/cv.yml)                                 | 不放电话、地址、生日、身份证件等隐私。                            |
+| 项目总览                   | [projects.md](https://github.com/mohui373/Xuan/edit/main/_pages/projects.md)                      | 用于项目页引言与说明。                                            |
+| 项目详情                   | [paper-to-paradigm.md](https://github.com/mohui373/Xuan/edit/main/_projects/paper-to-paradigm.md) | 可增加背景、方法、链接与更新。                                    |
+| 公开链接                   | [socials.yml](https://github.com/mohui373/Xuan/edit/main/_data/socials.yml)                       | 只加入已确认属于本人且可公开的链接。                              |
+| 英文版                     | [en.md](https://github.com/mohui373/Xuan/edit/main/_pages/en.md)                                  | 后续补充完整英文内容时，与中文研究状态保持一致。                  |
+| 网站名称、域名、搜索与 SEO | [\_config_xuan.yml](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)                  | 修改域名时需同时更新 GitHub Pages 设置。                          |
+| 头像                       | [assets/img](https://github.com/mohui373/Xuan/tree/main/assets/img)                               | 点击 **Add file → Upload files**，保持文件名 `profile-bole.jpg`。 |
+| 配色与首页排版             | [\_site.scss](https://github.com/mohui373/Xuan/edit/main/_sass/_site.scss)                        | 这是高级设置；需要大幅改版时建议先告诉 Codex。                    |
 
-如果只是调整文字，直接修改 Markdown / HTML 内容即可。
+## 提交与发布
 
-## 2. 研究方向
+1. 确认分支为 `main`。
+2. 点击文件右上角铅笔图标，修改后点击 **Commit changes**。
+3. 在 [Actions](https://github.com/mohui373/Xuan/actions) 中等待 **Deploy site** 变为绿色勾。
+4. 刷新网站。部署通常在 1–3 分钟内完成。
 
-文件：`_data/research.yml`
+`gh-pages` 是自动生成的发布分支，切勿手动编辑。
 
-主要用于维护三个研究方向及其状态。常见状态包括：
+## 哪些材料仍待补充
 
-- `Under Review`
-- `In Preparation`
-- `Ongoing Research`
+- 已确认的 ORCID 主页或 iD。
+- 可公开的 OSF 个人主页或项目链接。
+- 已删除隐私信息的 CV PDF。
+- 完整英文版文字。
 
-修改研究标题、研究问题、摘要或标签后，首页和研究页会读取这里的数据。
+## 域名设置
 
-## 3. 论文与手稿
-
-文件：`_bibliography/papers.bib`
-
-用于维护：
-
-- 已发表论文
-- Under Review 手稿
-- In Preparation 手稿
-
-不要填写尚未确认的期刊、DOI、预印本链接或其他出版信息。
-
-## 4. CV 内容
-
-文件：`_data/cv.yml`
-
-主要用于修改：
-
-- 教育经历
-- 研究经历
-- 项目经历
-- 方法技能
-- 软件工具
-- 奖项与学术活动
-
-公开网页中不要写入手机号、出生日期、籍贯、家庭住址等私人信息。
-
-## 5. 项目
-
-项目列表页：`_pages/projects.md`
-
-项目详情：`_projects/`
-
-当前开放研究工具 `paper-to-paradigm` 的详情页位于 `_projects/` 中。
-
-## 6. 公开链接
-
-文件：`_data/socials.yml`
-
-用于维护 GitHub、邮箱以及后续确认可公开的 ORCID、OSF、Google Scholar 等链接。
-
-只添加已经确认属于本人且可以公开展示的链接。
-
-## 7. 英文页面
-
-文件：`_pages/en.md`
-
-英文版本目前作为独立入口维护。后续内容完善时，应与中文版研究状态保持一致。
-
-## 8. 头像
-
-目标路径：`assets/img/profile-bole.jpg`
-
-建议上传经过压缩的清晰头像，避免文件过大影响网页加载速度。
-
-## 9. 网站配置
-
-主要配置文件：
-
-- `_config.yml`
-- `_config_xuan.yml`
-
-`_config_xuan.yml` 主要保存个人站点覆盖配置，包括：
-
-- 姓名
-- 中文站点简介
-- GitHub Pages 地址
-- `baseurl: /Xuan`
-- 搜索、SEO 等个人设置
-
-网站构建时会同时读取 `_config.yml` 与 `_config_xuan.yml`。
-
-## 10. 在 GitHub 网页中修改
-
-1. 打开 `mohui373/Xuan`。
-2. 确认当前分支为 `main`。
-3. 打开需要修改的文件。
-4. 点击右上角铅笔图标 **Edit this file**。
-5. 修改后点击 **Commit changes**。
-6. 直接提交到 `main`。
-7. 打开 **Actions** 页面查看 `Deploy site`。
-8. 等待绿色勾出现后，再查看网页。
-
-网站地址：`https://mohui373.github.io/Xuan/`
-
-## 11. 发布分支说明
-
-人工只维护 `main`。
-
-`gh-pages` 是 GitHub Actions 自动生成的发布分支，不需要手动编辑。
-
-## 12. 修改前的检查原则
-
-每次更新研究或论文内容时，优先确认：
-
-- 研究状态是否准确
-- 作者顺序是否准确
-- 论文题目是否为当前版本
-- 是否误写未确认结果
-- 是否包含不应公开的个人信息
-- 中文版和英文版是否存在明显状态冲突
-
-对于尚未确定的研究内容，宁可使用较宽泛的 `Ongoing Research` 描述，也不要提前写死理论、变量、样本或结果。
+站点配置使用 `https://xuan.land`。当需要更换域名时，应同时修改 [\_config_xuan.yml](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml) 和仓库根目录的 [CNAME](https://github.com/mohui373/Xuan/edit/main/CNAME)，然后在 GitHub Pages 设置中更新自定义域名。

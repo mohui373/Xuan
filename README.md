@@ -2,45 +2,39 @@
 
 这是宣博乐（Bole Xuan）的个人学术网站源码，基于 [al-folio](https://github.com/alshedivat/al-folio) 构建。
 
-网站由 GitHub Actions 自动生成：在 `main` 分支修改并提交内容后，GitHub 会自动更新网页。日常编辑不需要在 Windows 安装 Ruby、Jekyll、MSYS2 或 Docker。
+网站地址：<https://xuan.land>（域名 DNS 生效后启用）
+完整说明：[网站编辑与结构指南](docs/LOCAL_EDITING_GUIDE.md)
 
-网站地址：`https://mohui373.github.io/Xuan/`
+日常维护只需在 GitHub 网页编辑 `main` 分支；提交后，GitHub Actions 会自动发布网站。无需在 Windows 安装 Ruby、Jekyll、Docker 或其他开发环境。
 
-## 最常修改的文件
+## 直接编辑入口
 
-| 想修改什么               | 在 GitHub 中打开                   |
-| ------------------------ | ---------------------------------- |
-| 网站名称、简介、公开邮箱 | `_config.yml`、`_config_xuan.yml`  |
-| 首页文字与版块           | `_pages/about.md`                  |
-| 三个研究方向与研究状态   | `_data/research.yml`               |
-| 论文、手稿与发表状态     | `_bibliography/papers.bib`         |
-| 教育、经历、技能、获奖   | `_data/cv.yml`                     |
-| 开源项目                 | `_pages/projects.md`、`_projects/` |
-| GitHub、ORCID 等公开链接 | `_data/socials.yml`                |
-| 英文页                   | `_pages/en.md`                     |
-| 头像                     | `assets/img/profile-bole.jpg`      |
+| 想改什么                     | 直接打开编辑页                                                                            | 网页中的位置 |
+| ---------------------------- | ----------------------------------------------------------------------------------------- | ------------ |
+| 首页文案、研究简介、按钮文字 | [编辑首页](https://github.com/mohui373/Xuan/edit/main/_pages/about.md)                    | 首页         |
+| 研究方向、研究问题、状态     | [编辑研究数据](https://github.com/mohui373/Xuan/edit/main/_data/research.yml)             | 首页、研究页 |
+| 论文、在审手稿、研究计划     | [编辑论文列表](https://github.com/mohui373/Xuan/edit/main/_bibliography/papers.bib)       | 论文页       |
+| 教育经历、技能、获奖、经历   | [编辑 CV 数据](https://github.com/mohui373/Xuan/edit/main/_data/cv.yml)                   | 简历页       |
+| 开放项目总览                 | [编辑项目页](https://github.com/mohui373/Xuan/edit/main/_pages/projects.md)               | 项目页       |
+| paper-to-paradigm 项目详情   | [编辑项目详情](https://github.com/mohui373/Xuan/edit/main/_projects/paper-to-paradigm.md) | 项目详情页   |
+| GitHub、公开邮箱、ORCID、OSF | [编辑公开链接](https://github.com/mohui373/Xuan/edit/main/_data/socials.yml)              | 导航、搜索   |
+| 英文版入口                   | [编辑英文页](https://github.com/mohui373/Xuan/edit/main/_pages/en.md)                     | EN           |
+| 头像                         | [上传头像](https://github.com/mohui373/Xuan/upload/main/assets/img)                       | 首页         |
+| 网站名称、域名、SEO          | [编辑站点配置](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)               | 全站         |
+| 视觉色彩与版式               | [编辑站点样式](https://github.com/mohui373/Xuan/edit/main/_sass/_site.scss)               | 全站         |
 
-更完整的逐项说明见 [`docs/LOCAL_EDITING_GUIDE.md`](docs/LOCAL_EDITING_GUIDE.md)。
+## 每次修改后的操作
 
-## 直接在 GitHub 网页修改
+1. 点击上表链接，修改内容。
+2. 点击 **Commit changes**，直接提交到 `main`。
+3. 打开 [Actions](https://github.com/mohui373/Xuan/actions)，等待 **Deploy site** 显示绿色勾。
+4. 打开网站刷新查看。通常需要 1–3 分钟。
 
-1. 打开要修改的文件。
-2. 点击右上角铅笔图标 **Edit this file**。
-3. 修改后点击 **Commit changes**。
-4. 打开仓库的 **Actions** 页面，等待 `Deploy site` 显示绿色勾。
-5. 网页通常会在几分钟内更新。
+不要直接编辑 `gh-pages` 分支；它由 GitHub Actions 自动生成。
 
-## 内容状态约定
+## 内容原则
 
-- `Manuscript under review`：稿件审稿中。
-- `Manuscript in preparation`：稿件准备中。
-- `Ongoing Research`：研究进行中。
-- 未正式公开的论文不填写虚构的期刊、DOI、预印本或 PDF 链接。
-- 未脱敏 CV 不上传；电话、出生日期、籍贯和住址不写入公开仓库。
-
-## 后续待补材料
-
-- 准确的 ORCID iD 或 ORCID 主页链接。
-- 可以公开的 OSF 个人主页或项目链接。
-- 删除隐私信息后的 CV PDF。
-- 完整英文版内容。
+- 只放可公开的邮箱、链接、经历和材料；不要上传未脱敏的 CV。
+- 审稿中、准备中的论文不要填写未确认的期刊、DOI 或研究结果。
+- ORCID、OSF、Google Scholar 等链接确认后再加入。
+- 需要新增页面、修改结构或更换域名时，直接告诉 Codex。

@@ -12,11 +12,16 @@ keywords: 宣博乐, Bole Xuan, 基础心理学, 实验社会心理学, 判断�
 lang: zh-CN
 icon: 📖
 
-url: https://mohui373.github.io
-baseurl: /Xuan
+url: https://xuan.land
+baseurl: ""
 last_updated: false
 back_to_top: true
 protect_email: true
+
+al_folio:
+  features:
+    distill:
+      enabled: false
 
 navbar_fixed: true
 footer_fixed: false
@@ -33,5 +38,12 @@ og_image: profile-bole.jpg
 blog_name: Bole Xuan
 blog_description: Research notes and academic updates
 external_sources: []
+jekyll_get_json: []
 newsletter:
   enabled: false
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
