@@ -8,17 +8,17 @@
 
 ## 最常修改的文件
 
-| 想修改什么 | 在 GitHub 中打开 |
-| --- | --- |
-| 网站名称、简介、公开邮箱 | `_config.yml`、`_config_xuan.yml` |
-| 首页文字与版块 | `_pages/about.md` |
-| 三个研究方向与研究状态 | `_data/research.yml` |
-| 论文、手稿与发表状态 | `_bibliography/papers.bib` |
-| 教育、经历、技能、获奖 | `_data/cv.yml` |
-| 开源项目 | `_pages/projects.md`、`_projects/` |
-| GitHub、ORCID 等公开链接 | `_data/socials.yml` |
-| 英文页 | `_pages/en.md` |
-| 头像 | `assets/img/profile-bole.jpg` |
+| 想修改什么               | 在 GitHub 中打开                   |
+| ------------------------ | ---------------------------------- |
+| 网站名称、简介、公开邮箱 | `_config.yml`、`_config_xuan.yml`  |
+| 首页文字与版块           | `_pages/about.md`                  |
+| 三个研究方向与研究状态   | `_data/research.yml`               |
+| 论文、手稿与发表状态     | `_bibliography/papers.bib`         |
+| 教育、经历、技能、获奖   | `_data/cv.yml`                     |
+| 开源项目                 | `_pages/projects.md`、`_projects/` |
+| GitHub、ORCID 等公开链接 | `_data/socials.yml`                |
+| 英文页                   | `_pages/en.md`                     |
+| 头像                     | `assets/img/profile-bole.jpg`      |
 
 更完整的逐项说明见 [`docs/LOCAL_EDITING_GUIDE.md`](docs/LOCAL_EDITING_GUIDE.md)。
 
