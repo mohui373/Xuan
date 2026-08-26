@@ -59,4 +59,4 @@ _sass/_site.scss                 自定义视觉风格
 
 ## 域名设置
 
-站点配置使用 `https://xuan.land`。当需要更换域名时，应同时修改 [\_config_xuan.yml](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml) 和仓库根目录的 [CNAME](https://github.com/mohui373/Xuan/edit/main/CNAME)，然后在 GitHub Pages 设置中更新自定义域名。
+当前网站地址为 <https://mohui373.github.io/Xuan/>。未来如需使用自定义域名，应同时修改 [\_config_xuan.yml](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)、仓库根目录的 `CNAME` 文件，并在 GitHub Pages 设置中更新自定义域名；完成 DNS 设置后再启用 HTTPS。

@@ -2,7 +2,7 @@
 
 这是宣博乐（Bole Xuan）的个人学术网站源码，基于 [al-folio](https://github.com/alshedivat/al-folio) 构建。
 
-网站地址：<https://xuan.land>（域名 DNS 生效后启用）
+网站地址：<https://mohui373.github.io/Xuan/>
 完整说明：[网站编辑与结构指南](docs/LOCAL_EDITING_GUIDE.md)
 
 日常维护只需在 GitHub 网页编辑 `main` 分支；提交后，GitHub Actions 会自动发布网站。无需在 Windows 安装 Ruby、Jekyll、Docker 或其他开发环境。
@@ -31,6 +31,13 @@
 4. 打开网站刷新查看。通常需要 1–3 分钟。
 
 不要直接编辑 `gh-pages` 分支；它由 GitHub Actions 自动生成。
+
+## 来源、版权与贡献者
+
+- 本站代码以 [al-folio](https://github.com/alshedivat/al-folio) GitHub 模板为基础，并依照其 [MIT License](LICENSE) 进行个性化修改与发布。
+- 该模板由 Maruan Al-Shedivat 创建；本仓库不是 al-folio 官方仓库，也不代表原项目立场。
+- 本站的个人学术文字、研究资料、简历信息、头像与原创内容由宣博乐（Bole Xuan）保留权利；未经明确许可，请勿转载、再发布或用于训练、商业推广等用途。详情见 [个人内容版权说明](CONTENT_LICENSE.md)。
+- GitHub 的“Contributors”仅按 Git 提交统计。当前仓库的代码提交者为 `mohui373`；模板来源通过本节和 MIT 许可证明确署名。
 
 ## 内容原则
 
