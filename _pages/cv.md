@@ -1,12 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: 简历
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 4
+cv_format: rendercv
+description: 宣博乐的教育、研究经历、方法技能与学术荣誉。
 toc:
   sidebar: left
 ---

@@ -1,189 +1,206 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: 宣博乐
+  label: 基础心理学硕士研究生
+  email: huimo7627@gmail.com
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: 关注社会规范、目标受挫与受限选择情境中的行为决策，以及社会线索、个体动机与认知评价如何共同塑造判断、态度与后续行为。
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: mohui373
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: 闽南师范大学
+        area: 基础心理学
+        studyType: 硕士研究生（在读）
+        start_date: 2024-09
+        end_date: 2027-06
         highlights:
-          - Description 1.
-          - Description 2.
+          - MATLAB 程序设计、多因素实验设计方法、心理测量建模与统计方法
+          - 认知神经与现代心理研究技术、视知觉与虚拟现实技术
+          - 硕士论文：挫折下自我说服为何更有效？论点质量起到关键作用
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: 湖南理工大学
+        area: 人力资源管理
+        studyType: 本科
+        start_date: 2020-09
+        end_date: 2024-06
         highlights:
-          - Description 1.
-          - Description 2.
+          - 兼具管理学与心理学相关训练
+          - 本科论文：巴林特小组对提高中学教师工作满意度的效果研究
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+    Research Experience:
+      - company: 调剂相关挫折、自我说服与目标承诺
+        position: 第一作者
+        start_date: ""
+        end_date: Under Review
+        summary: 负责研究设计、实验材料编制、数据分析、结果解释与论文写作。
         highlights:
-          - Relativity
-          - Description 2.
+          - 三个预注册实验
+          - 关注调剂挫折后对替代目标的承诺与持续投入
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: 道德规则启动、成就动机与作弊行为
+        position: 第一作者
+        start_date: ""
+        end_date: In Preparation
+        summary: 负责文献梳理、实验与问卷设计、数据分析、论文初稿撰写、修改与编辑。
         highlights:
-          - Description 1.
-          - Description 2.
+          - 2 × 2 被试间实验设计
+          - 关注道德提醒、成就动机与作弊行为
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: 被“蒸馏”的同事
+        position: 研究进行中
+        start_date: ""
+        end_date: Ongoing
+        summary: 比较 AI 驱动裁员与常规裁员对裁员幸存者心理和行为的不同影响。
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - 关注知识隐藏、工作态度与自身知识价值判断
+          - 具体理论模型、研究设计和变量结构将随项目推进更新
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Research Projects:
+      - company: 湖南省 2022 年省级大学生创新创业训练项目
+        position: 项目负责人
+        start_date: 2022
+        end_date: ""
+        summary: 疫情下高校防疫措施对在校生学校认同感的影响机制；相关成果发表于《辽宁青年》。
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: 福建省社会科学规划项目
+        position: 主要成员
+        start_date: ""
+        end_date: ""
+        summary: 共同兴趣促进对同伴的目标承诺：信任的中介作用。
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Xuan, B.
+          - Yang, H.
+        publisher: Manuscript under review
+        releaseDate: ""
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Xuan, B.
+          - Yang, Y.
+          - Yang, H.
+        publisher: Manuscript in preparation
+        releaseDate: ""
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: 特殊时期高校应急产业管理对在校生学校认同感的影响机制研究——基于扎根访谈湖南理工学院在校大学生
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - 宣博乐
+          - 尹婕
+          - 吉茂缘
+          - 滕雨宣
+          - 余柳仪
+          - 李毅
+        publisher: 辽宁青年(8), 27–28
+        releaseDate: 2023
+        summary: 第一作者。
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Methods & Skills:
+      - name: Research Design
+        level: ""
+        icon: fa-solid fa-flask
+        keywords: 实验设计、问卷设计、访谈研究、扎根理论
+
+      - name: Quantitative Methods
+        level: ""
+        icon: fa-solid fa-chart-line
+        keywords: 方差分析、回归分析、中介分析、调节分析、结构方程模型
+
+      - name: Research & Data Tools
+        level: ""
+        icon: fa-solid fa-laptop-code
+        keywords: R、SPSS、E-Prime、MATLAB、Mplus、AMOS、MAXQDA、NVivo、Excel
+
+      - name: Additional Skills
+        level: ""
+        icon: fa-solid fa-lightbulb
+        keywords: Vibe Coding、文献管理、研究材料整理、学术汇报、AI-assisted Research
+
+    Open-Source Projects:
+      - name: paper-to-paradigm
+        summary: 面向所有读者、专长实验与行为研究的 AI-assisted research toolkit。
+        highlights:
+          - paper-anatomy · Read & Audit
+          - paper-reconstruction · Reconstruct & Replicate
+          - https://github.com/mohui373/paper-to-paradigm
+
+    Academic Awards & Honors:
+      - title: 研究生二等奖学金
+        date: ""
+        awarder: 闽南师范大学
+        summary: 学术荣誉。
+
+      - title: 三好学生
+        date: ""
+        awarder: 闽南师范大学
+        summary: 校级荣誉。
+
+      - title: 学术年会优秀论文三等奖
+        date: ""
+        awarder: 漳州市心理学会
+        summary: 学术论文荣誉。
+
+      - title: 第一届大学生心理与认知智能测评挑战赛分区决赛三等奖
+        date: ""
+        awarder: ""
+        summary: 心理与认知测评相关竞赛。
+
+      - title: 第三届大学生心理与行为在线实验精英赛校赛二等奖
+        date: ""
+        awarder: ""
+        summary: 在线实验相关竞赛。
+
+      - title: 福建省心理咨询技能大赛校初赛二等奖
+        date: ""
+        awarder: 闽南师范大学
+        summary: 心理咨询技能竞赛。
+
+      - title: 第二十三届心理剧大赛二等奖
+        date: ""
+        awarder: 闽南师范大学
+        summary: 心理学相关实践竞赛。
+
+      - title: 第四届青少年心理健康科普微视频一等奖
+        date: ""
+        awarder: 漳州市
+        summary: 心理健康科普荣誉。
+
+    Additional Awards:
+      - title: 挑战杯校赛特等奖
+        date: 2021
+        awarder: 湖南理工学院
+
+      - title: 电子商务三创挑战赛二等奖
+        date: 2021
+        awarder: 湖南理工学院
+
+      - title: 人力资源管理知识竞赛二等奖
+        date: 2021
+        awarder: 湖南理工学院
+
+      - title: 挑战杯校赛一等奖
+        date: 2022
+        awarder: 湖南理工学院
+
+      - title: 消费帮扶大赛优秀直播团队及优秀主播
+        date: 2021
+        awarder: 湖南省
+
+      - title: 首届反诈创作大赛优秀奖
+        date: ""
+        awarder: 闽南师范大学校团委
+
+      - title: 社会调研大赛优秀奖
+        date: ""
+        awarder: 闽南师范大学
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: 中文
+        summary: 母语
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: CET-6；具备英文学术文献阅读、英文摘要和英文论文初稿写作经验
