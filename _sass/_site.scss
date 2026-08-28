@@ -182,6 +182,21 @@ h3,
   margin-top: 2rem;
 }
 
+.site-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.8rem;
+  align-items: center;
+  margin: 1rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+}
+
+.site-profile-links a {
+  color: var(--site-ink-blue);
+  font-weight: 700;
+}
+
 .site-action {
   display: inline-flex;
   align-items: center;
@@ -356,6 +371,13 @@ html[data-theme="dark"] .research-question-band {
   margin: 0;
   color: var(--site-ink-blue);
   font-size: clamp(2.3rem, 5vw, 4rem);
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  letter-spacing: -0.035em;
+}
+
+.project-skills h3 {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  letter-spacing: -0.02em;
 }
 
 .project-lede {
@@ -542,6 +564,27 @@ html[data-theme="dark"] .research-question-band {
   font-size: 0.86rem;
   background: var(--site-accent-soft);
   border-left: 3px solid var(--site-warm);
+}
+
+.research-resource {
+  margin: 1.15rem 0 0;
+}
+
+.research-resource a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.85rem;
+  color: var(--site-ink-blue);
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: 1px solid var(--site-ink-blue);
+}
+
+.research-resource a:hover {
+  color: var(--global-bg-color);
+  text-decoration: none;
+  background: var(--site-ink-blue);
 }
 
 .publication-group + .publication-group {

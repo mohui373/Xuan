@@ -50,6 +50,9 @@ nav_order: 1
         </div>
       </div>
       <p class="research-note">{{ stream.note }}</p>
+      {% if stream.osf_url %}
+        <p class="research-resource"><a href="{{ stream.osf_url }}" target="_blank" rel="noopener noreferrer">{{ stream.osf_label }}</a></p>
+      {% endif %}
     </article>
 
 {% endfor %}

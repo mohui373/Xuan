@@ -24,9 +24,8 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
       <div class="site-actions" aria-label="主要链接">
         <a class="site-action site-action-primary" href="{{ '/research/' | relative_url }}">了解我的研究</a>
         <a class="site-action" href="{{ '/cv/' | relative_url }}">查看简历</a>
-        <a class="site-action" href="https://github.com/mohui373">GitHub</a>
-        <a class="site-action" href="mailto:huimo7627@gmail.com">Email</a>
       </div>
+      <p class="site-profile-links">学术档案：<a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://osf.io/uke2j" target="_blank" rel="noopener noreferrer">OSF · 说服研究</a><a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:huimo7627@gmail.com">Email</a></p>
     </div>
     <figure class="profile-frame">
       <img src="{{ '/assets/img/profile-bole.jpg' | relative_url }}" alt="宣博乐学术头像" width="720" height="900">
@@ -58,30 +57,6 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
             <p>{{ stream.question }}</p>
           </div>
           <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
-        </article>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="site-section" aria-labelledby="selected-title">
-    <div class="section-heading">
-      <div>
-        <p class="section-eyebrow">Selected Research</p>
-        <h2 id="selected-title">当前研究</h2>
-      </div>
-    </div>
-    <div class="research-card-grid">
-      {% for stream in site.data.research.streams %}
-        <article class="research-card">
-          <div class="research-card-topline">
-            <span>{{ stream.number }}</span>
-            <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
-          </div>
-          <h3>{{ stream.card_title }}</h3>
-          <p>{{ stream.summary }}</p>
-          <ul class="tag-list">
-            {% for tag in stream.tags %}<li>{{ tag }}</li>{% endfor %}
-          </ul>
         </article>
       {% endfor %}
     </div>
