@@ -3,14 +3,14 @@ cv:
   label: 基础心理学硕士研究生
   email: huimo7627@gmail.com
   image: ""
-  summary: 关注社会规范、目标受挫与受限选择情境中的行为决策，以及社会线索、个体动机与认知评价如何共同塑造判断、态度与后续行为。
+  summary: 研究实验社会心理学与组织行为，关注社会规范、目标受挫与组织变革如何通过动机和认知评价影响人的态度与后续行为。
 
   social_networks:
     - network: GitHub
       username: mohui373
 
   sections:
-    教育背景:
+    Education:
       - institution: 闽南师范大学
         area: 基础心理学
         studyType: 硕士研究生（在读）
@@ -30,7 +30,7 @@ cv:
           - 兼具管理学与心理学相关训练
           - 本科论文：巴林特小组对提高中学教师工作满意度的效果研究
 
-    研究经历:
+    Experience:
       - company: 调剂相关挫折、自我说服与目标承诺
         position: 第一作者
         start_date: ""
@@ -58,7 +58,6 @@ cv:
           - 关注知识隐藏、工作态度与自身知识价值判断
           - 具体理论模型、研究设计和变量结构将随项目推进更新
 
-    实践与服务经历:
       - company: 湖南理工学院心理健康教育中心
         position: 策划部部长
         start_date: 2020-10
@@ -86,20 +85,20 @@ cv:
           - 学生关怀、资料整理与活动组织
           - 与辅导员、教师沟通，做好记录、反馈与转介提醒
 
-    科研项目:
-      - company: 湖南省 2022 年省级大学生创新创业训练项目
+    Projects:
+      - name: 湖南省 2022 年省级大学生创新创业训练项目
         position: 项目负责人
         start_date: 2022
         end_date: ""
-        summary: 《特殊时期高校应急产业管理对在校生学校认同感的影响机制研究》；负责项目设计与推进，相关成果发表于《辽宁青年》。
+        summary: 项目负责人。研究《特殊时期高校应急产业管理对在校生学校认同感的影响机制》，负责项目设计与推进；相关成果发表于《辽宁青年》。
 
-      - company: 福建省社会科学规划项目
+      - name: 福建省社会科学规划项目
         position: 主要成员
         start_date: ""
         end_date: ""
-        summary: 共同兴趣促进对同伴的目标承诺：信任的中介作用。
+        summary: 主要成员。研究共同兴趣如何通过信任促进对同伴的目标承诺。
 
-    论文与手稿:
+    Publications:
       - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
         authors:
           - Xuan, B.
@@ -127,7 +126,7 @@ cv:
         releaseDate: 2023
         summary: 第一作者。
 
-    研究方法与技能:
+    Skills:
       - name: 研究设计
         level: ""
         icon: fa-solid fa-flask
@@ -148,7 +147,7 @@ cv:
         icon: fa-solid fa-lightbulb
         keywords: Vibe Coding、文献管理、研究材料整理、学术汇报、AI-assisted Research
 
-    开源项目:
+    Open Source Projects:
       - name: paper-to-paradigm
         summary: 面向所有读者、专长实验与行为研究的 AI-assisted research toolkit。
         highlights:
@@ -156,7 +155,7 @@ cv:
           - paper-reconstruction · Reconstruct & Replicate
           - https://github.com/mohui373/paper-to-paradigm
 
-    学术与心理学相关荣誉:
+    Awards:
       - title: 研究生二等奖学金
         date: ""
         awarder: 闽南师范大学
@@ -197,7 +196,7 @@ cv:
         awarder: 漳州市
         summary: 心理健康科普荣誉。
 
-    综合竞赛与实践荣誉:
+    Honors and Awards:
       - title: 挑战杯校赛特等奖
         date: 2021
         awarder: 湖南理工学院
@@ -226,7 +225,7 @@ cv:
         date: ""
         awarder: 闽南师范大学
 
-    语言能力:
+    Languages:
       - name: 中文
         summary: 母语
 

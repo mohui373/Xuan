@@ -24,7 +24,6 @@ Keep starter docs accurate for the pluginized architecture.
 - `docs/INSTALL.md`
 - `docs/CUSTOMIZE.md`
 - `docs/FAQ.md`
-- `docs/CONTRIBUTING.md`
 - `docs/BOUNDARIES.md`
 - `.github/copilot-instructions.md`
 - `.agents/skills/al-folio-bootstrap/SKILL.md`

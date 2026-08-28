@@ -608,6 +608,102 @@ html[data-theme="dark"] .research-question-band {
   color: var(--site-ink-blue);
 }
 
+.cv > .card:nth-of-type(1) > .card-title,
+.cv > .card:nth-of-type(2) > .card-title,
+.cv .anchor#education + .card > .card-title,
+.cv .anchor#experience + .card > .card-title,
+.cv .anchor#projects + .card > .card-title,
+.cv .anchor#publications + .card > .card-title,
+.cv .anchor#skills + .card > .card-title,
+.cv .anchor#open-source-projects + .card > .card-title,
+.cv .anchor#awards + .card > .card-title,
+.cv .anchor#honors-and-awards + .card > .card-title,
+.cv .anchor#languages + .card > .card-title {
+  font-size: 0;
+}
+
+.cv > .card:nth-of-type(1) > .card-title::after,
+.cv > .card:nth-of-type(2) > .card-title::after,
+.cv .anchor#education + .card > .card-title::after,
+.cv .anchor#experience + .card > .card-title::after,
+.cv .anchor#projects + .card > .card-title::after,
+.cv .anchor#publications + .card > .card-title::after,
+.cv .anchor#skills + .card > .card-title::after,
+.cv .anchor#open-source-projects + .card > .card-title::after,
+.cv .anchor#awards + .card > .card-title::after,
+.cv .anchor#honors-and-awards + .card > .card-title::after,
+.cv .anchor#languages + .card > .card-title::after {
+  font-size: 1.25rem;
+}
+
+.cv > .card:nth-of-type(1) > .card-title::after {
+  content: "联系信息";
+}
+
+.cv > .card:nth-of-type(2) > .card-title::after {
+  content: "个人简介";
+}
+
+.cv .anchor#education + .card > .card-title::after {
+  content: "教育背景";
+}
+
+.cv .anchor#experience + .card > .card-title::after {
+  content: "研究与实践经历";
+}
+
+.cv .anchor#projects + .card > .card-title::after {
+  content: "科研项目";
+}
+
+.cv .anchor#publications + .card > .card-title::after {
+  content: "论文与手稿";
+}
+
+.cv .anchor#skills + .card > .card-title::after {
+  content: "研究方法与技能";
+}
+
+.cv .anchor#open-source-projects + .card > .card-title::after {
+  content: "开源项目";
+}
+
+.cv .anchor#awards + .card > .card-title::after {
+  content: "学术与心理学相关荣誉";
+}
+
+.cv .anchor#honors-and-awards + .card > .card-title::after {
+  content: "综合竞赛与实践荣誉";
+}
+
+.cv .anchor#languages + .card > .card-title::after {
+  content: "语言能力";
+}
+
+.cv > .card:nth-of-type(1) tr:nth-child(1) b,
+.cv > .card:nth-of-type(1) tr:nth-child(2) b,
+.cv > .card:nth-of-type(1) tr:nth-child(3) b {
+  font-size: 0;
+}
+
+.cv > .card:nth-of-type(1) tr:nth-child(1) b::after,
+.cv > .card:nth-of-type(1) tr:nth-child(2) b::after,
+.cv > .card:nth-of-type(1) tr:nth-child(3) b::after {
+  font-size: 0.9rem;
+}
+
+.cv > .card:nth-of-type(1) tr:nth-child(1) b::after {
+  content: "姓名";
+}
+
+.cv > .card:nth-of-type(1) tr:nth-child(2) b::after {
+  content: "学术身份";
+}
+
+.cv > .card:nth-of-type(1) tr:nth-child(3) b::after {
+  content: "邮箱";
+}
+
 @media (max-width: 900px) {
   .site-hero {
     grid-template-columns: minmax(0, 1fr) minmax(190px, 0.45fr);

@@ -19,6 +19,7 @@ nav_order: 2
       <span class="status status-review">Under Review</span>
     </div>
     <div class="publications">{% bibliography --query @*[status=under_review] %}</div>
+    <p class="publication-resource">该研究的公开预注册与材料：<a href="https://osf.io/uke2j" target="_blank" rel="noopener noreferrer">在 OSF 查看</a></p>
   </section>
 
   <section class="publication-group" aria-labelledby="preparation-title">

@@ -13,7 +13,6 @@ In short: `al-folio` v1.x is a **thin Jekyll starter, not a theme**. It owns sta
 | Which gem owns this Liquid tag?      | [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#wrapper-to-tag-to-gem-delegation)            |
 | Why did my feature render nothing?   | [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#failure-modes-that-produce-no-error-message) |
 | What commands should I run?          | [`AGENTS.md`](../AGENTS.md#validated-local-command-set)                                       |
-| How do I contribute?                 | [`docs/CONTRIBUTING.md`](../docs/CONTRIBUTING.md)                                             |
 
 ## Copilot-specific paths
 

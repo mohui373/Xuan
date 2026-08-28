@@ -25,7 +25,7 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
         <a class="site-action site-action-primary" href="{{ '/research/' | relative_url }}">了解我的研究</a>
         <a class="site-action" href="{{ '/cv/' | relative_url }}">查看简历</a>
       </div>
-      <p class="site-profile-links">学术档案：<a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://osf.io/uke2j" target="_blank" rel="noopener noreferrer">OSF · 说服研究</a><a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:huimo7627@gmail.com">Email</a></p>
+      <p class="site-profile-links">学术档案：<a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:huimo7627@gmail.com">Email</a></p>
     </div>
     <figure class="profile-frame">
       <img src="{{ '/assets/img/profile-bole.jpg' | relative_url }}" alt="宣博乐学术头像" width="720" height="900">
