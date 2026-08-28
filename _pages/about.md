@@ -2,13 +2,13 @@
 layout: default
 title: 首页
 permalink: /
-description: 宣博乐的个人学术主页：社会规范、目标受挫、判断与决策、道德行为及 AI 与员工行为。
+description: 宣博乐的个人学术主页：社会规范、目标受挫、组织与行为、道德行为及 AI 与员工行为。
 ---
 
 <main class="site-home">
   <section class="site-hero" aria-labelledby="home-title">
     <div class="site-hero-copy">
-      <p class="site-kicker">实验社会心理学 · 判断与决策</p>
+      <p class="site-kicker">实验社会心理学 · 组织与行为</p>
       <h1 id="home-title">宣博乐</h1>
       <p class="site-role">基础心理学硕士研究生｜闽南师范大学</p>
       <p class="site-lede">
@@ -16,7 +16,8 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、判�
       </p>
       <ul class="tag-list hero-tags" aria-label="主要研究方向">
         <li>实验社会心理学</li>
-        <li>判断与决策</li>
+        <li>组织与行为</li>
+        <li>组织行为</li>
         <li>动机与目标追求</li>
         <li>道德行为</li>
       </ul>
@@ -36,7 +37,7 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、判�
   <section class="research-question-band" aria-labelledby="core-question">
     <p class="section-eyebrow">Core Question</p>
     <h2 id="core-question">当环境改变了人的选择空间时，人会如何重新理解处境，并调整自己的态度与行为？</h2>
-    <p>社会规范 × 动机 × 判断与决策 × 实验行为科学</p>
+    <p>社会规范 × 动机 × 组织与行为 × 实验行为科学</p>
   </section>
 
   <section class="site-section" aria-labelledby="streams-title">

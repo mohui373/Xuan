@@ -1,50 +1,51 @@
 :root {
-  --global-bg-color: #faf8f3;
-  --global-code-bg-color: #f0ece4;
-  --global-text-color: #222522;
-  --global-text-color-light: #626761;
-  --global-theme-color: #17324d;
-  --global-hover-color: #b87924;
+  --global-bg-color: #f7f3e9;
+  --global-code-bg-color: #ede9dc;
+  --global-text-color: #1d2420;
+  --global-text-color-light: #5d665e;
+  --global-theme-color: #29463d;
+  --global-hover-color: #b56a3b;
   --global-hover-text-color: #fff;
-  --global-footer-bg-color: #17324d;
-  --global-footer-text-color: #f5f0e7;
+  --global-footer-bg-color: #1e392f;
+  --global-footer-text-color: #f7f3e9;
   --global-footer-link-color: #fff;
-  --global-divider-color: #d8d3c8;
+  --global-divider-color: #d7d4c7;
   --global-card-bg-color: #fffdf8;
-  --global-back-to-top-bg-color: rgba(23, 50, 77, 0.75);
+  --global-back-to-top-bg-color: rgba(41, 70, 61, 0.78);
   --global-back-to-top-text-color: #fff;
-  --site-accent-soft: #efe5d4;
-  --site-ink-blue: #17324d;
+  --site-accent-soft: #e4ebdf;
+  --site-ink-blue: #29463d;
   --site-paper: #fffdf8;
-  --site-warm: #b87924;
-  --site-shadow: 0 20px 48px rgba(33, 42, 47, 0.09);
+  --site-warm: #b56a3b;
+  --site-shadow: 0 20px 48px rgba(28, 48, 40, 0.1);
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #171b1d;
-  --global-code-bg-color: #252c2f;
-  --global-text-color: #edf0ed;
-  --global-text-color-light: #aeb8b5;
-  --global-theme-color: #8fb9d4;
-  --global-hover-color: #e1b46b;
-  --global-hover-text-color: #171b1d;
-  --global-footer-bg-color: #101416;
-  --global-footer-text-color: #dce3e0;
+  --global-bg-color: #151d19;
+  --global-code-bg-color: #233028;
+  --global-text-color: #edf2eb;
+  --global-text-color-light: #abb9af;
+  --global-theme-color: #b7d0b9;
+  --global-hover-color: #d89a65;
+  --global-hover-text-color: #151d19;
+  --global-footer-bg-color: #101611;
+  --global-footer-text-color: #edf2eb;
   --global-footer-link-color: #fff;
-  --global-divider-color: #394248;
-  --global-card-bg-color: #20272b;
-  --global-back-to-top-bg-color: rgba(143, 185, 212, 0.75);
+  --global-divider-color: #39493e;
+  --global-card-bg-color: #1c2821;
+  --global-back-to-top-bg-color: rgba(183, 208, 185, 0.75);
   --global-back-to-top-text-color: #111;
-  --site-accent-soft: #2e3030;
-  --site-ink-blue: #b8d4e5;
-  --site-paper: #20272b;
-  --site-warm: #e1b46b;
+  --site-accent-soft: #2b3931;
+  --site-ink-blue: #c4ddc4;
+  --site-paper: #1c2821;
+  --site-warm: #e0a56e;
   --site-shadow: 0 20px 48px rgba(0, 0, 0, 0.24);
 }
 
 body {
   font-family: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", system-ui, sans-serif;
   letter-spacing: 0.01em;
+  background-image: radial-gradient(circle at 88% 7%, rgba(120, 144, 111, 0.13), transparent 21rem);
 }
 
 h1,
@@ -84,11 +85,12 @@ h3,
 
 .site-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(270px, 0.65fr);
+  grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.45fr);
   gap: clamp(3rem, 7vw, 6rem);
   align-items: center;
   min-height: min(76vh, 760px);
   padding: clamp(3.5rem, 8vw, 7rem) 0;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .site-kicker,
@@ -125,7 +127,9 @@ h3,
 
 .profile-frame {
   position: relative;
+  width: min(100%, 280px);
   margin: 0;
+  justify-self: end;
 }
 
 .profile-frame::before {
@@ -139,11 +143,10 @@ h3,
 .profile-frame img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: auto;
   border: 1px solid var(--global-divider-color);
   box-shadow: var(--site-shadow);
-  object-fit: cover;
-  object-position: center 25%;
+  object-fit: contain;
 }
 
 .profile-frame figcaption {
@@ -564,7 +567,7 @@ html[data-theme="dark"] .research-question-band {
 
 @media (max-width: 900px) {
   .site-hero {
-    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.55fr);
+    grid-template-columns: minmax(0, 1fr) minmax(190px, 0.45fr);
     gap: 2.5rem;
   }
 
@@ -599,7 +602,7 @@ html[data-theme="dark"] .research-question-band {
   }
 
   .profile-frame {
-    width: min(78vw, 330px);
+    width: min(72vw, 280px);
     margin: 0 auto;
   }
 
