@@ -21,3 +21,8 @@
 @use "teachings";
 @use "typograms";
 @use "site";
+
+/* Cache-bust marker for the forest research archive visual refresh. */
+:root {
+  --xuan-visual-version: 20260828;
+}
