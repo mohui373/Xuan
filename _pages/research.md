@@ -10,7 +10,7 @@ nav_order: 1
 <main class="editorial-page research-page">
   <header class="page-intro wide">
     <p class="section-eyebrow">Research</p>
-    <h1>人在选择空间改变后，如何重新理解环境并调整行为？</h1>
+    <h1>人在目标追求的过程中，面对环境的影响，如何重新理解环境并调整行为？</h1>
     <p>
       我的研究关注人在规范、受挫、受限选择和组织变革情境中，如何通过动机与认知过程调整后续判断、态度与行为。
     </p>

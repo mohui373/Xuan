@@ -591,10 +591,29 @@ html[data-theme="dark"] .research-question-band {
   margin-top: 4rem;
 }
 
-.publication-group h2 {
-  padding-bottom: 0.8rem;
+.publications-page .section-heading {
+  padding-bottom: 0.7rem;
+  border-bottom: 0;
+}
+
+.publications-page .publication-group h2 {
+  padding-bottom: 0;
   color: var(--site-ink-blue);
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0;
+}
+
+.publications-page h2.bibliography:empty {
+  display: none;
+}
+
+.publications-page ol.bibliography {
+  margin-top: 0.5rem;
+}
+
+.publications-page ol.bibliography .title {
+  color: var(--site-ink-blue);
+  font-size: 1.12rem;
+  line-height: 1.55;
 }
 
 .cv .card,
@@ -617,7 +636,6 @@ html[data-theme="dark"] .research-question-band {
 .cv .anchor#skills + .card > .card-title,
 .cv .anchor#open-source-projects + .card > .card-title,
 .cv .anchor#awards + .card > .card-title,
-.cv .anchor#honors-and-awards + .card > .card-title,
 .cv .anchor#languages + .card > .card-title {
   font-size: 0;
 }
@@ -631,7 +649,6 @@ html[data-theme="dark"] .research-question-band {
 .cv .anchor#skills + .card > .card-title::after,
 .cv .anchor#open-source-projects + .card > .card-title::after,
 .cv .anchor#awards + .card > .card-title::after,
-.cv .anchor#honors-and-awards + .card > .card-title::after,
 .cv .anchor#languages + .card > .card-title::after {
   font-size: 1.25rem;
 }
@@ -649,7 +666,7 @@ html[data-theme="dark"] .research-question-band {
 }
 
 .cv .anchor#experience + .card > .card-title::after {
-  content: "研究与实践经历";
+  content: "实践经历";
 }
 
 .cv .anchor#projects + .card > .card-title::after {
@@ -670,10 +687,6 @@ html[data-theme="dark"] .research-question-band {
 
 .cv .anchor#awards + .card > .card-title::after {
   content: "学术与心理学相关荣誉";
-}
-
-.cv .anchor#honors-and-awards + .card > .card-title::after {
-  content: "综合竞赛与实践荣誉";
 }
 
 .cv .anchor#languages + .card > .card-title::after {

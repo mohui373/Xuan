@@ -31,33 +31,6 @@ cv:
           - 本科论文：巴林特小组对提高中学教师工作满意度的效果研究
 
     Experience:
-      - company: 调剂相关挫折、自我说服与目标承诺
-        position: 第一作者
-        start_date: ""
-        end_date: Under Review
-        summary: 负责研究设计、实验材料编制、数据分析、结果解释与论文写作。
-        highlights:
-          - 三个预注册实验
-          - 关注调剂挫折后对替代目标的承诺与持续投入
-
-      - company: 道德规则启动、成就动机与作弊行为
-        position: 第一作者
-        start_date: ""
-        end_date: In Preparation
-        summary: 负责文献梳理、实验与问卷设计、数据分析、论文初稿撰写、修改与编辑。
-        highlights:
-          - 2 × 2 被试间实验设计
-          - 关注道德提醒、成就动机与作弊行为
-
-      - company: 被“蒸馏”的同事
-        position: 研究进行中
-        start_date: ""
-        end_date: Ongoing
-        summary: 比较 AI 驱动裁员与常规裁员对裁员幸存者心理和行为的不同影响。
-        highlights:
-          - 关注知识隐藏、工作态度与自身知识价值判断
-          - 具体理论模型、研究设计和变量结构将随项目推进更新
-
       - company: 湖南理工学院心理健康教育中心
         position: 策划部部长
         start_date: 2020-10
@@ -89,30 +62,28 @@ cv:
       - name: 湖南省 2022 年省级大学生创新创业训练项目
         position: 项目负责人
         start_date: 2022
-        end_date: ""
+        end_date: 2023
         summary: 项目负责人。研究《特殊时期高校应急产业管理对在校生学校认同感的影响机制》，负责项目设计与推进；相关成果发表于《辽宁青年》。
 
-      - name: 福建省社会科学规划项目
+      - name: 福建省社会科学规划项目(一般项目)：共同兴趣促进对同伴的目标承诺：信任的中介作用
         position: 主要成员
-        start_date: ""
-        end_date: ""
+        start_date: "2025.9"
+        end_date: PRESENT
         summary: 主要成员。研究共同兴趣如何通过信任促进对同伴的目标承诺。
 
     Publications:
-      - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+      - title: 调剂相关挫折：为何自我说服因更坚定地相信自己的理由而更有效？
         authors:
           - Xuan, B.
           - Yang, H.
-        publisher: Manuscript under review
-        releaseDate: ""
+        releaseDate: 审稿中
 
-      - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
+      - title: 谁会无视规则？道德提醒情境下作弊行为的个体差异
         authors:
           - Xuan, B.
           - Yang, Y.
           - Yang, H.
-        publisher: Manuscript in preparation
-        releaseDate: ""
+        releaseDate: 准备中
 
       - title: 特殊时期高校应急产业管理对在校生学校认同感的影响机制研究——基于扎根访谈湖南理工学院在校大学生
         authors:
@@ -128,75 +99,74 @@ cv:
 
     Skills:
       - name: 研究设计
-        level: ""
         icon: fa-solid fa-flask
         keywords: 实验设计、问卷设计、访谈研究、扎根理论
 
       - name: 定量方法
-        level: ""
         icon: fa-solid fa-chart-line
         keywords: 方差分析、回归分析、中介分析、调节分析、结构方程模型
 
       - name: 研究与数据工具
-        level: ""
         icon: fa-solid fa-laptop-code
         keywords: R、SPSS、E-Prime、MATLAB、Mplus、AMOS、MAXQDA、NVivo、Excel
 
       - name: 其他技能
-        level: ""
         icon: fa-solid fa-lightbulb
         keywords: Vibe Coding、文献管理、研究材料整理、学术汇报、AI-assisted Research
 
     Open Source Projects:
       - name: paper-to-paradigm
-        summary: 面向所有读者、专长实验与行为研究的 AI-assisted research toolkit。
+        summary: 面向论文阅读、研究理解与实验重建的手术工具。
         highlights:
           - paper-anatomy · Read & Audit
           - paper-reconstruction · Reconstruct & Replicate
           - https://github.com/mohui373/paper-to-paradigm
 
     Awards:
+      - title: 第四届青少年心理健康科普微视频一等奖
+        date: 2026
+        awarder: 漳州市
+
       - title: 研究生二等奖学金
-        date: ""
+        date: 2025
         awarder: 闽南师范大学
-        summary: 学术荣誉。
 
       - title: 三好学生
-        date: ""
+        date: 2025
         awarder: 闽南师范大学
-        summary: 校级荣誉。
-
-      - title: 学术年会优秀论文三等奖
-        date: ""
-        awarder: 漳州市心理学会
-        summary: 学术论文荣誉。
 
       - title: 第一届大学生心理与认知智能测评挑战赛分区决赛三等奖
-        date: ""
+        date: 2025
         awarder: ""
-        summary: 心理与认知测评相关竞赛。
 
       - title: 第三届大学生心理与行为在线实验精英赛校赛二等奖
-        date: ""
+        date: 2025
         awarder: ""
-        summary: 在线实验相关竞赛。
 
       - title: 福建省心理咨询技能大赛校初赛二等奖
-        date: ""
+        date: 2025
         awarder: 闽南师范大学
-        summary: 心理咨询技能竞赛。
 
       - title: 第二十三届心理剧大赛二等奖
-        date: ""
+        date: 2025
         awarder: 闽南师范大学
-        summary: 心理学相关实践竞赛。
 
-      - title: 第四届青少年心理健康科普微视频一等奖
-        date: ""
-        awarder: 漳州市
-        summary: 心理健康科普荣誉。
+      - title: 首届反诈创作大赛优秀奖
+        date: 2025
+        awarder: 闽南师范大学校团委
 
-    Honors and Awards:
+      - title: 社会调研大赛优秀奖
+        date: 2025
+        awarder: 闽南师范大学
+
+      - title: 学术年会优秀论文三等奖
+        date: 2024
+        awarder: 漳州市心理学会
+
+      - title: 挑战杯校赛一等奖
+        date: 2022
+        awarder: 湖南理工学院
+
       - title: 挑战杯校赛特等奖
         date: 2021
         awarder: 湖南理工学院
@@ -209,25 +179,10 @@ cv:
         date: 2021
         awarder: 湖南理工学院
 
-      - title: 挑战杯校赛一等奖
-        date: 2022
-        awarder: 湖南理工学院
-
       - title: 消费帮扶大赛优秀直播团队及优秀主播
         date: 2021
         awarder: 湖南省
 
-      - title: 首届反诈创作大赛优秀奖
-        date: ""
-        awarder: 闽南师范大学校团委
-
-      - title: 社会调研大赛优秀奖
-        date: ""
-        awarder: 闽南师范大学
-
     Languages:
-      - name: 中文
-        summary: 母语
-
-      - name: English
-        summary: CET-6；具备英文学术文献阅读、英文摘要和英文论文初稿写作经验
+      - name: 语言
+        summary: 中文
