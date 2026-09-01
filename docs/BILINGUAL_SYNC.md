@@ -28,7 +28,7 @@ The Chinese site is the current source of record, and the English site is its co
 
    ```bash
    python test/bilingual_sync.py
-   npx prettier --check _pages/en.md _data/en.yml README.md README_EN.md docs/BILINGUAL_SYNC.md
+   npx prettier --check _pages/en.md _data/en.yml README.md docs/BILINGUAL_SYNC.md
    ```
 
 6. 部署后同时检查：

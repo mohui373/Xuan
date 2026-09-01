@@ -1,7 +1,5 @@
 # 宣博乐｜个人学术网站
 
-**中文说明** | [English README](README_EN.md)
-
 这是宣博乐（Bole Xuan）的个人学术网站源码，基于 [al-folio](https://github.com/alshedivat/al-folio) 构建。
 
 中文版：<https://mohui373.github.io/Xuan/>
@@ -25,8 +23,7 @@ English: <https://mohui373.github.io/Xuan/en/>
 | 开放项目总览                          | [编辑项目页](https://github.com/mohui373/Xuan/edit/main/_pages/projects.md)               | 项目页       |
 | paper-to-paradigm 项目详情            | [编辑项目详情](https://github.com/mohui373/Xuan/edit/main/_projects/paper-to-paradigm.md) | 项目详情页   |
 | 导航和搜索中的公开邮箱、GitHub、ORCID | [编辑社交链接](https://github.com/mohui373/Xuan/edit/main/_data/socials.yml)              | 导航、搜索   |
-| 英文版全部文案                        | [编辑英文数据](https://github.com/mohui373/Xuan/edit/main/_data/en.yml)                   | EN           |
-| 英文版结构与栏目顺序                  | [编辑英文页面](https://github.com/mohui373/Xuan/edit/main/_pages/en.md)                   | EN           |
+| 英文版全部内容（主要编辑入口）        | [直接编辑英文内容](https://github.com/mohui373/Xuan/edit/main/_data/en.yml)               | 英文版       |
 | 头像                                  | [上传头像](https://github.com/mohui373/Xuan/upload/main/assets/img)                       | 首页         |
 | 网站名称、网址、SEO 与全站功能        | [编辑站点配置](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)               | 全站         |
 | 视觉色彩与版式                        | [编辑站点样式](https://github.com/mohui373/Xuan/edit/main/_sass/_site.scss)               | 全站         |
