@@ -12,12 +12,11 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
       <h1 id="home-title">宣博乐</h1>
       <p class="site-role">基础心理学硕士研究生｜闽南师范大学</p>
       <p class="site-lede">
-        我主要关注人在社会规范、目标受挫与受限选择情境中的行为决策，研究社会线索、个体动机与认知评价如何共同塑造人的判断、态度与后续行为。
+        我主要关注人在社会规范、目标受挫与裁员情境中的行为与表现，研究社会线索、个体动机与认知评价如何共同塑造人的判断、态度与后续行为。
       </p>
       <ul class="tag-list hero-tags" aria-label="主要研究方向">
         <li>实验社会心理学</li>
         <li>组织与行为</li>
-        <li>组织行为</li>
         <li>动机与目标追求</li>
         <li>道德行为</li>
       </ul>
@@ -35,15 +34,15 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
 
   <section class="research-question-band" aria-labelledby="core-question">
     <p class="section-eyebrow">Core Question</p>
-    <h2 id="core-question">当环境改变了人的选择空间时，人会如何重新理解处境，并调整自己的态度与行为？</h2>
-    <p>社会规范 × 动机 × 组织与行为 × 实验行为科学</p>
+    <h2 id="core-question">当环境影响个体的目标追求时，人会如何重新理解处境，并调整自己的态度与行为？哪些潜在机制起到关键作用呢？</h2>
+    <p>社会规范 × 目标承诺 × 行为与决策 × 实验心理学</p>
   </section>
 
   <section class="site-section" aria-labelledby="streams-title">
     <div class="section-heading">
       <div>
         <p class="section-eyebrow">Research at a Glance</p>
-        <h2 id="streams-title">三个相互连接的研究方向</h2>
+        <h2 id="streams-title">目前三项研究的主要方向</h2>
       </div>
       <a class="section-link" href="{{ '/research/' | relative_url }}">查看完整研究设计 →</a>
     </div>
@@ -66,9 +65,9 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
     <div class="project-feature-copy">
       <p class="section-eyebrow">Featured Open-Source Project</p>
       <h2 id="project-title">paper-to-paradigm</h2>
-      <p class="project-lede">面向论文阅读、研究理解与实验重建的 AI-assisted research toolkit。</p>
+      <p class="project-lede">面向论文阅读、研究理解与实验重建的手术工具。</p>
       <p>
-        它不是普通论文摘要器，而是把理论、变量、被试体验、研究流程、数据与分析重新连接起来，帮助读者理解一项研究的证据是如何产生的。
+        它对论文进行解剖和仔细分解，将理论、变量、被试体验、研究流程、数据与分析重新连接起来，从被试角度复现论文所研究的内容。
       </p>
       <div class="site-actions">
         <a class="site-action site-action-primary" href="{{ '/projects/' | relative_url }}">了解项目</a>
@@ -79,12 +78,12 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
       <div>
         <span>01</span>
         <h3>paper-anatomy</h3>
-        <p>Read & Audit：解剖理论、变量、Study 流程、被试体验与证据边界。</p>
+        <p>Read & Audit：解剖理论与概念、变量、实验程序、被试体验与证据边界。</p>
       </div>
       <div>
         <span>02</span>
         <h3>paper-reconstruction</h3>
-        <p>Reconstruct & Replicate：重建来源、程序、材料、数据结构与可复现流程。</p>
+        <p>Reconstruct & Replicate：重建来源、详细程序、材料、数据结构与可复现流程。</p>
       </div>
     </div>
   </section>
