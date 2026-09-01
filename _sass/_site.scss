@@ -610,6 +610,15 @@ html[data-theme="dark"] .research-question-band {
   margin-top: 0.5rem;
 }
 
+.publications-page ol.bibliography .abbr {
+  display: none;
+}
+
+.publications-page ol.bibliography .abbr + .col-sm-8 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
 .publications-page ol.bibliography .title {
   color: var(--site-ink-blue);
   font-size: 1.12rem;
