@@ -625,6 +625,155 @@ html[data-theme="dark"] .research-question-band {
   line-height: 1.55;
 }
 
+.english-section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  padding: 1rem 0;
+  margin-bottom: var(--section-gap);
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.english-section-nav a {
+  padding: 0.45rem 0.75rem;
+  color: var(--site-ink-blue);
+  font-size: 0.82rem;
+  font-weight: 700;
+  border: 1px solid var(--global-divider-color);
+}
+
+.english-section-nav a:hover {
+  text-decoration: none;
+  background: var(--site-accent-soft);
+}
+
+.english-anchor-section {
+  scroll-margin-top: 6rem;
+}
+
+.english-section-intro {
+  max-width: 58rem;
+  margin: 1.6rem 0 3rem;
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.english-site .publication-group .section-heading h3 {
+  margin: 0;
+  color: var(--site-ink-blue);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+}
+
+.english-publication-entry {
+  padding: 1.35rem 0;
+}
+
+.english-publication-entry + .english-publication-entry {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.english-publication-entry h4,
+.english-entry h4,
+.english-simple-entry h4 {
+  margin: 0;
+  color: var(--site-ink-blue);
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.english-publication-entry p {
+  margin: 0.45rem 0 0;
+  color: var(--global-text-color-light);
+}
+
+.english-cv-section {
+  padding: 3rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.english-cv-section > h3 {
+  margin: 0 0 1.6rem;
+  color: var(--site-ink-blue);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+}
+
+.english-entry {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 0.22fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.35rem 0;
+}
+
+.english-entry + .english-entry {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.english-entry-date {
+  margin: 0;
+  color: var(--site-warm);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.english-entry-meta {
+  margin: 0.35rem 0 0.7rem;
+  color: var(--global-text-color-light);
+  font-weight: 650;
+}
+
+.english-entry .clean-list {
+  margin-top: 0.8rem;
+}
+
+.english-simple-entry {
+  padding: 1.25rem;
+  background: var(--site-paper);
+  border: 1px solid var(--global-divider-color);
+}
+
+.english-honors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--global-divider-color);
+  border: 1px solid var(--global-divider-color);
+}
+
+.english-honors-grid article {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--site-paper);
+}
+
+.english-honors-grid span {
+  color: var(--site-warm);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.english-honors-grid p,
+.english-language-list p {
+  margin: 0;
+}
+
+.english-language-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.english-page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-top: var(--section-gap);
+}
+
 .cv .card,
 .cv .list-group-item {
   background: var(--site-paper);
@@ -756,6 +905,11 @@ html[data-theme="dark"] .research-question-band {
   .site-hero {
     grid-template-columns: 1fr;
     min-height: 0;
+  }
+
+  .english-entry,
+  .english-honors-grid {
+    grid-template-columns: 1fr;
   }
 
   .site-hero-copy {

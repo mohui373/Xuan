@@ -1,8 +1,13 @@
 # 宣博乐｜个人学术网站
 
+**中文说明** | [English README](README_EN.md)
+
 这是宣博乐（Bole Xuan）的个人学术网站源码，基于 [al-folio](https://github.com/alshedivat/al-folio) 构建。
 
-网站地址：<https://mohui373.github.io/Xuan/>
+中文版：<https://mohui373.github.io/Xuan/>
+
+English: <https://mohui373.github.io/Xuan/en/>
+
 完整说明：[网站编辑与结构指南](docs/LOCAL_EDITING_GUIDE.md)
 
 日常维护只需在 GitHub 网页编辑 `main` 分支；提交后，GitHub Actions 会自动发布网站。无需在 Windows 安装 Ruby、Jekyll、Docker 或其他开发环境。
@@ -20,12 +25,19 @@
 | 开放项目总览                          | [编辑项目页](https://github.com/mohui373/Xuan/edit/main/_pages/projects.md)               | 项目页       |
 | paper-to-paradigm 项目详情            | [编辑项目详情](https://github.com/mohui373/Xuan/edit/main/_projects/paper-to-paradigm.md) | 项目详情页   |
 | 导航和搜索中的公开邮箱、GitHub、ORCID | [编辑社交链接](https://github.com/mohui373/Xuan/edit/main/_data/socials.yml)              | 导航、搜索   |
-| 英文版入口                            | [编辑英文页](https://github.com/mohui373/Xuan/edit/main/_pages/en.md)                     | EN           |
+| 英文版全部文案                        | [编辑英文数据](https://github.com/mohui373/Xuan/edit/main/_data/en.yml)                   | EN           |
+| 英文版结构与栏目顺序                  | [编辑英文页面](https://github.com/mohui373/Xuan/edit/main/_pages/en.md)                   | EN           |
 | 头像                                  | [上传头像](https://github.com/mohui373/Xuan/upload/main/assets/img)                       | 首页         |
 | 网站名称、网址、SEO 与全站功能        | [编辑站点配置](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)               | 全站         |
 | 视觉色彩与版式                        | [编辑站点样式](https://github.com/mohui373/Xuan/edit/main/_sass/_site.scss)               | 全站         |
 
 > 如果只修改站点样式 `_sass/_site.scss`，提交后请打开 [Actions](https://github.com/mohui373/Xuan/actions/workflows/deploy.yml)，选择 **Run workflow** 手动运行一次 `Deploy site`；其他上表内容提交后会自动发布。
+
+## 中英文镜像维护
+
+中文版与英文版是成对维护的内容镜像。修改中文后需要同步检查英文；英文若新增或改变事实、时间、状态与链接，也必须同步修改中文。具体文件对应关系、检查规则和直接编辑入口见 [中英文镜像维护指南](docs/BILINGUAL_SYNC.md)。
+
+本地检查命令：`python test/bilingual_sync.py`。
 
 ## 每次修改后的操作
 

@@ -1,0 +1,253 @@
+# English mirror of the Chinese site content.
+# When this file changes, review the paired Chinese sources listed in docs/BILINGUAL_SYNC.md.
+
+profile:
+  name: Bole Xuan
+  kicker: Experimental Social Psychology · Organizations & Behavior
+  role: Master's Student in Basic Psychology | Minnan Normal University
+  lede: I study behavior and performance under social norms, goal setbacks, and layoff contexts, focusing on how social cues, individual motivation, and cognitive appraisal jointly shape judgment, attitudes, and subsequent behavior.
+  tags:
+    - Experimental Social Psychology
+    - Organizations & Behavior
+    - Motivation & Goal Pursuit
+    - Moral Behavior
+
+core_question:
+  title: When environments shape goal pursuit, how do people reinterpret their situation and adjust their attitudes and behavior—and which underlying mechanisms matter most?
+  keywords: Social Norms × Goal Commitment × Behavior & Decision-Making × Experimental Psychology
+
+research:
+  intro: My research examines how motivational and cognitive processes shape subsequent judgment, attitudes, and behavior under social norms, setbacks, constrained choices, and organizational change.
+  streams:
+    - number: "01"
+      slug: reassignment-setback
+      title: Setbacks, Persuasion & Goal Pursuit
+      status: Under Review
+      status_key: review
+      question: When an original goal can no longer be pursued, how do people recommit to an alternative goal they did not initially choose?
+      summary: This work compares self-persuasion with other-persuasion to examine how people rebuild goal commitment, confidence, and sustained effort after reassignment-related setbacks.
+      design:
+        - Three preregistered experiments
+        - Student-organization role reassignment scenario
+        - Hamlet theater-role reassignment scenario
+        - Behavioral measures using the Charging Task and Slider Task
+      diagram:
+        - Reassignment-related setback
+        - Self-persuasion
+        - Endorsement of self-generated reasons
+        - Confidence and hope
+        - Goal commitment and sustained effort
+      note: The manuscript is under review. The journal, sample sizes, and unconfirmed links are not publicly disclosed.
+      osf_url: https://osf.io/uke2j
+      osf_label: View the preregistration and materials on OSF
+
+    - number: "02"
+      slug: moral-reminders
+      title: Social Norms & Moral Decision-Making
+      status: In Preparation
+      status_key: preparation
+      question: Why does the same moral reminder affect people differently?
+      summary: This research examines how moral-rule primes and achievement-motivation orientations jointly influence cheating and rule compliance.
+      design:
+        - 2 × 2 between-subjects experimental design
+        - Achievement-motivation orientation: MAF vs. MAS
+        - Priming condition: moral-rule prime vs. blank-screen control
+        - University student sample, N = 213
+      diagram:
+        - Moral-rule reminder
+        - × Achievement-motivation orientation
+        - Cheating and rule compliance
+      note: The manuscript is in preparation and is not presented as a published paper; no fictional journal or preprint links are shown.
+
+    - number: "03"
+      slug: distilled-colleague
+      title: AI, Organizational Change & Employee Behavior
+      status: Ongoing Research
+      status_key: ongoing
+      question: Do employees interpret replacement by AI and layoffs caused by conventional organizational factors as fundamentally different events?
+      summary: This project compares AI-driven and conventional layoffs, focusing on how layoff survivors reassess knowledge, job security, organizational relationships, and subsequent work behavior.
+      design:
+        - AI-driven layoffs vs. conventional layoffs
+        - Knowledge hiding and work attitudes
+        - Perceived value of one's knowledge and job-security perceptions
+        - The theoretical model and variable structure will be refined as the project progresses
+      diagram:
+        - AI-driven vs. conventional layoffs
+        - Survivors' interpretation of the event
+        - Reappraisal of knowledge, job, and organizational relationships
+        - Knowledge hiding and work attitudes
+      note: Conceptual and ongoing. No public data, statistical results, formal hypotheses, or submission status are available yet.
+
+publications:
+  - group: Manuscripts Under Review
+    status: Under Review
+    status_key: review
+    entries:
+      - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+        authors: B. Xuan and H. Yang
+        resource_url: https://osf.io/uke2j
+        resource_label: Preregistration and materials on OSF
+
+  - group: Manuscripts in Preparation
+    status: In Preparation
+    status_key: preparation
+    entries:
+      - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
+        authors: B. Xuan, Y. Yang, and H. Yang
+
+  - group: Peer-Reviewed Publications
+    status: Published
+    status_key: published
+    entries:
+      - title: "How Emergency Industry Management at Universities During Special Periods Shapes Students' School Identification: A Grounded-Theory Interview Study"
+        authors: Bole Xuan et al.
+        venue: Liaoning Youth, 2023, No. 8, pp. 27–28
+        note: First author
+
+project:
+  name: paper-to-paradigm
+  lede: A research toolkit for reading papers, understanding studies, and reconstructing experiments.
+  summary: It carefully dissects papers and reconnects theory, variables, participant experience, research procedures, data, and analysis so that a study can be reconstructed from the participant's perspective.
+  tags:
+    - Experimental Research
+    - Behavioral Science
+    - Open Science
+    - AI for Research
+  skills:
+    - number: "01"
+      name: paper-anatomy
+      label: Read & Audit
+      summary: Dissect theories and concepts, variables, experimental procedures, participant experience, and evidential boundaries.
+    - number: "02"
+      name: paper-reconstruction
+      label: Reconstruct & Replicate
+      summary: Rebuild sources, detailed procedures, materials, data structures, and reproducible workflows.
+
+methods:
+  - title: Research Design
+    summary: Experimental design, questionnaire design, interview research, and grounded theory
+  - title: Quantitative Methods
+    summary: ANOVA, regression, mediation and moderation analysis, and structural equation modeling
+  - title: Research Tools
+    summary: R, SPSS, E-Prime, MATLAB, Mplus, AMOS, MAXQDA, NVivo, and Excel
+
+cv:
+  summary: Master's student in basic psychology working across experimental social psychology and organizational behavior, with interests in social norms, goal setbacks, organizational change, and the motivational and cognitive processes that shape subsequent attitudes and behavior.
+
+  education:
+    - institution: Minnan Normal University
+      degree: M.S. Student in Basic Psychology
+      start_date: "2024.09"
+      end_date: "2027.06"
+      highlights:
+        - MATLAB programming, multifactor experimental design, psychometric modeling, and statistical methods
+        - Cognitive neuroscience, contemporary psychological research methods, visual perception, and virtual reality
+        - Master's thesis: Why is self-persuasion more effective after setbacks? The role of argument quality
+    - institution: Hunan Institute of Science and Technology
+      degree: B.M. in Human Resource Management
+      start_date: "2020.09"
+      end_date: "2024.06"
+      highlights:
+        - Interdisciplinary training in management and psychology
+        - Undergraduate thesis on the effects of Balint groups on secondary-school teachers' job satisfaction
+
+  experience:
+    - organization: Mental Health Education Center, Hunan Institute of Science and Technology
+      role: Director, Planning Department
+      start_date: "2020.10"
+      end_date: "2022.06"
+      summary: Planned and delivered university-wide mental-health activities, managed budgets and materials, and participated in group-counseling activities.
+    - organization: Student Association Union Center, Hunan Institute of Science and Technology
+      role: Director, Supervision Department
+      start_date: "2020.10"
+      end_date: "2022.06"
+      summary: Coordinated activity review and on-site supervision, cross-department communication, event operations, and standardized documentation.
+    - organization: School of Literature, Minnan Normal University
+      role: Psychology Administrative Assistant
+      date: "2026"
+      summary: Assisted with student mental-health services, psychology salons, peer-support training, activity coordination, and documentation.
+    - organization: Mental Health Education and Counseling Center, Minnan Normal University
+      role: Peer Counselor
+      start_date: "2026.03"
+      end_date: Present
+      summary: Provide peer psychological support for common student concerns, including emotional distress, self-development and exploration, family concerns, career planning, stress and adjustment, interpersonal relationships, and romantic relationships.
+      highlights:
+        - Coursework and training in cognitive behavioral therapy, psychodynamic approaches, short-term dynamic therapy (CCRT), counseling practice, sandplay therapy, expressive therapies, Balint groups, and group counseling
+        - Practical experience in individual support and group facilitation
+    - organization: Mental Health Education and Counseling Center, Minnan Normal University
+      role: Psychological Support Hotline Counselor, Fujian 12355
+      date: "2026"
+      summary: Trained in psychological-support hotline practice, confidentiality, and crisis identification; provide attentive listening, problem clarification, emotional support, preliminary risk screening, and referrals for adolescents and parents.
+
+  projects:
+    - title: Hunan Provincial Undergraduate Innovation and Entrepreneurship Training Project (2022)
+      role: Project Lead
+      start_date: "2022"
+      end_date: "2023"
+      summary: Led the design and implementation of a study on how emergency industry management at universities shaped students' school identification; related findings were published in Liaoning Youth.
+    - title: "Fujian Provincial Social Science Planning Project (General Program): How Shared Interests Foster Goal Commitment to Peers—The Mediating Role of Trust"
+      role: Core Team Member
+      start_date: "2025.09"
+      end_date: Present
+      summary: Contribute to research on how shared interests promote commitment to peers' goals through trust.
+
+  publications:
+    - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+      status: Under Review
+    - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
+      status: In Preparation
+    - title: "How Emergency Industry Management at Universities During Special Periods Shapes Students' School Identification: A Grounded-Theory Interview Study"
+      status: Published, 2023
+
+  skills:
+    - title: Research Design
+      detail: Experimental design, questionnaire design, interview research, and grounded theory
+    - title: Quantitative Methods
+      detail: ANOVA, regression, mediation, moderation, and structural equation modeling
+    - title: Research & Data Tools
+      detail: R, SPSS, E-Prime, MATLAB, Mplus, AMOS, MAXQDA, NVivo, and Excel
+    - title: Additional Skills
+      detail: Vibe coding, reference management, research-material organization, academic presentations, and AI-assisted research
+
+  open_source:
+    - title: paper-to-paradigm
+      detail: paper-anatomy · Read & Audit; paper-reconstruction · Reconstruct & Replicate
+      url: https://github.com/mohui373/paper-to-paradigm
+
+  honors:
+    - title: First Prize, 4th Youth Mental Health Science Communication Micro-Video Competition
+      date: "2026"
+    - title: Second-Class Graduate Scholarship
+      date: "2025"
+    - title: Outstanding Student
+      date: "2025"
+    - title: Third Prize, Regional Final, 1st University Student Psychology and Cognitive Intelligence Assessment Challenge
+      date: "2025"
+    - title: Second Prize, University Round, 3rd University Student Online Psychology and Behavior Experiment Competition
+      date: "2025"
+    - title: Second Prize, University Preliminary, Fujian Psychological Counseling Skills Competition
+      date: "2025"
+    - title: Second Prize, 23rd Psychodrama Competition
+      date: "2025"
+    - title: Excellence Award, 1st Anti-Fraud Creative Competition
+      date: "2025"
+    - title: Excellence Award, Social Research Competition
+      date: "2025"
+    - title: Third Prize for Outstanding Paper, Academic Annual Conference
+      date: "2024"
+    - title: First Prize, University Round, Challenge Cup Competition
+      date: "2022"
+    - title: Grand Prize, University Round, Challenge Cup Competition
+      date: "2021"
+    - title: Second Prize, E-Commerce Three Innovations Challenge
+      date: "2021"
+    - title: Second Prize, Human Resource Management Knowledge Competition
+      date: "2021"
+    - title: Outstanding Livestream Team and Outstanding Host, Consumer Assistance Competition
+      date: "2021"
+
+  languages:
+    - title: English
+      detail: CET-6; able to read academic literature and draft English abstracts and initial manuscript versions
+    - title: Korean
+      detail: Basic proficiency
