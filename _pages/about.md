@@ -12,7 +12,7 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
       <h1 id="home-title">宣博乐</h1>
       <p class="site-role">基础心理学硕士研究生｜闽南师范大学</p>
       <p class="site-lede">
-        我主要关注人在社会规范、目标受挫与裁员情境中的行为与表现，研究社会线索、个体动机与认知评价如何共同塑造人的判断、态度与后续行为。
+        本人主要关注人在社会规范、目标受挫与裁员情境中的行为与表现，研究社会线索、个体动机与认知评价如何共同塑造人的判断、态度与后续行为。
       </p>
       <ul class="tag-list hero-tags" aria-label="主要研究方向">
         <li>实验社会心理学</li>
@@ -21,7 +21,7 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
         <li>道德行为</li>
       </ul>
       <div class="site-actions" aria-label="主要链接">
-        <a class="site-action site-action-primary" href="{{ '/research/' | relative_url }}">了解我的研究</a>
+        <a class="site-action site-action-primary" href="{{ '/research/' | relative_url }}">了解研究方向</a>
         <a class="site-action" href="{{ '/cv/' | relative_url }}">查看简历</a>
       </div>
       <p class="site-profile-links">学术档案：<a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:huimo7627@gmail.com">Email</a></p>
