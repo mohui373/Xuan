@@ -35,6 +35,9 @@ serve_og_meta: true
 serve_schema_org: true
 og_image: profile-bole.jpg
 
+analytics:
+  cloudflare: 20884074bd864f8f945d6900dca56727
+
 blog_name: Bole Xuan
 blog_description: Research notes and academic updates
 external_sources: []
