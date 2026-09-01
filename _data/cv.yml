@@ -184,5 +184,8 @@ cv:
         awarder: 湖南省
 
     Languages:
-      - name: 语言
-        summary: 中文
+      - name: English
+        summary: CET-6；具备英文学术文献阅读、英文摘要和英文论文初稿写作经验
+
+      - name: 韩语
+        summary: 基础
