@@ -23,7 +23,6 @@ lang: en
       <div class="site-actions" aria-label="Primary links">
         <a class="site-action site-action-primary" href="#research">Explore Research</a>
         <a class="site-action" href="#cv">View CV</a>
-        <a class="site-action" href="{{ '/' | relative_url }}">中文版</a>
       </div>
       <p class="site-profile-links">Academic profiles: <a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:huimo7627@gmail.com">Email</a></p>
     </div>
@@ -278,8 +277,30 @@ lang: en
 
   </section>
 
-  <footer class="english-page-footer">
-    <a class="site-action site-action-primary" href="{{ '/' | relative_url }}">View Chinese Version</a>
-    <a class="site-action" href="https://github.com/mohui373/Xuan/blob/main/README_EN.md">English Editing Guide</a>
-  </footer>
 </main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const chineseHome = "{{ '/' | relative_url }}";
+    const englishHome = "{{ '/en/' | relative_url }}";
+    const routes = [
+      { path: chineseHome, label: "Home", href: englishHome, current: true },
+      { path: "{{ '/research/' | relative_url }}", label: "Research", href: "#research" },
+      { path: "{{ '/publications/' | relative_url }}", label: "Publications", href: "#publications" },
+      { path: "{{ '/projects/' | relative_url }}", label: "Projects", href: "#projects" },
+      { path: "{{ '/cv/' | relative_url }}", label: "CV", href: "#cv" },
+      { path: englishHome, label: "Chinese", href: chineseHome },
+    ];
+
+    document.querySelectorAll("#navbar a.nav-link").forEach((link) => {
+      const route = routes.find((item) => new URL(link.href, window.location.origin).pathname === item.path);
+      if (!route) return;
+
+      link.textContent = route.label;
+      link.href = route.href;
+      link.classList.toggle("active", Boolean(route.current));
+      if (route.current) link.setAttribute("aria-current", "page");
+      else link.removeAttribute("aria-current");
+    });
+  });
+</script>
