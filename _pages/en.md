@@ -108,7 +108,6 @@ lang: en
       <section class="publication-group" aria-labelledby="en-publication-group-{{ forloop.index }}">
         <div class="section-heading compact">
           <h3 id="en-publication-group-{{ forloop.index }}">{{ group.group }}</h3>
-          <span class="status status-{{ group.status_key }}">{{ group.status }}</span>
         </div>
         <div class="english-publication-list">
           {% for entry in group.entries %}
