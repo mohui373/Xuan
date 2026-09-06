@@ -33,10 +33,15 @@ max_width: 1120px
 
 serve_og_meta: true
 serve_schema_org: true
-og_image: profile-bole.jpg
+og_image: profile-bole.webp
 
 analytics:
   cloudflare: 20884074bd864f8f945d6900dca56727
+
+third_party_libraries:
+  google_fonts:
+    url:
+      fonts: /Xuan/assets/css/local-fonts.css
 
 blog_name: Bole Xuan
 blog_description: Research notes and academic updates
