@@ -23,7 +23,7 @@ streams:
       - 对自身生成理由的认可
       - 信心与希望
       - 目标承诺与持续投入
-    note: 稿件正在审稿中；不公开投稿期刊、样本量或未确认链接。
+    note: 三个预注册实验；稿件正在审稿中。
 
   - number: "02"
     slug: moral-reminders
@@ -45,7 +45,7 @@ streams:
       - 道德规则提醒
       - × 成就动机类型
       - 作弊行为与规则遵从
-    note: 稿件准备中；当前不是已发表论文，也不展示虚构期刊或预印本链接。
+    note: 稿件准备中。
 
   - number: "03"
     slug: distilled-colleague

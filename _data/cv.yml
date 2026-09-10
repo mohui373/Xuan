@@ -131,7 +131,7 @@ cv:
 
     Open Source Projects:
       - name: paper-to-paradigm
-        summary: 面向论文阅读、研究理解与实验重建的手术工具。
+        summary: 面向论文阅读、研究理解与实验重建的研究工具箱。
         highlights:
           - paper-anatomy · Read & Audit
           - paper-reconstruction · Reconstruct & Replicate

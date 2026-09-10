@@ -64,7 +64,7 @@ lang: en
       <article id="en-{{ stream.slug }}" class="research-detail">
         <header class="research-detail-header">
           <div>
-            <p class="stream-overline">{{ stream.number }} · {{ stream.title }}</p>
+            <p class="stream-overline">{{ stream.number }}</p>
             <h2>{{ stream.title }}</h2>
           </div>
           <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
@@ -101,7 +101,7 @@ lang: en
         <h2 id="english-publications-title">Selected Work</h2>
       </div>
     </div>
-    <p class="english-section-intro">Items are grouped by current research status. Unconfirmed journals, DOIs, preprints, and links are not displayed.</p>
+    <p class="english-section-intro">Papers and manuscripts are grouped by current status, with links to related open materials below the entries.</p>
 
     {% for group in en.publications %}
       <section class="publication-group" aria-labelledby="en-publication-group-{{ forloop.index }}">
@@ -130,6 +130,7 @@ lang: en
       <h2 id="english-project-title">{{ en.project.name }}</h2>
       <p class="project-lede">{{ en.project.lede }}</p>
       <p>{{ en.project.summary }}</p>
+      <p>{{ en.project.workflow }}</p>
       <ul class="tag-list">
         {% for tag in en.project.tags %}<li>{{ tag }}</li>{% endfor %}
       </ul>

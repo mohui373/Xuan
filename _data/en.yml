@@ -5,7 +5,7 @@ profile:
   name: Bole Xuan
   kicker: Experimental Social Psychology · Organizations & Behavior
   role: Master's Student in Basic Psychology | Minnan Normal University
-  lede: I study behavior and performance under social norms, goal setbacks, and layoff contexts, focusing on how social cues, individual motivation, and cognitive appraisal jointly shape judgment, attitudes, and subsequent behavior.
+  lede: I study how people interpret and respond to goal setbacks, social norms, and organizational layoffs. My work examines how social cues, individual motivation, and cognitive appraisal influence attitudes and behavior.
   tags:
     - Experimental Social Psychology
     - Organizations & Behavior
@@ -13,11 +13,11 @@ profile:
     - Moral Behavior
 
 core_question:
-  title: When environments shape goal pursuit, how do people reinterpret their situation and adjust their attitudes and behavior—and which underlying mechanisms matter most?
-  keywords: Social Norms × Goal Commitment × Behavior & Decision-Making × Experimental Psychology
+  title: When circumstances change how people pursue their goals, how do they interpret the situation and adjust their actions?
+  keywords: Goal commitment after reassignment, rule compliance under moral reminders, and employee responses to AI-driven layoffs.
 
 research:
-  intro: My research examines how motivational and cognitive processes shape subsequent judgment, attitudes, and behavior under social norms, setbacks, constrained choices, and organizational change.
+  intro: Across these projects, I examine how motivation and cognitive appraisal influence judgment, attitudes, and behavior when people encounter social norms, setbacks, constrained choices, or organizational change.
   streams:
     - number: "01"
       slug: reassignment-setback
@@ -37,7 +37,7 @@ research:
         - Endorsement of self-generated reasons
         - Confidence and hope
         - Goal commitment and sustained effort
-      note: The manuscript is under review. The journal, sample sizes, and unconfirmed links are not publicly disclosed.
+      note: Three preregistered experiments; the manuscript is under review.
       osf_url: https://osf.io/uke2j
       osf_label: View the preregistration and materials on OSF
 
@@ -57,7 +57,7 @@ research:
         - Moral-rule reminder
         - × Achievement-motivation orientation
         - Cheating and rule compliance
-      note: The manuscript is in preparation and is not presented as a published paper; no fictional journal or preprint links are shown.
+      note: The manuscript is in preparation.
 
     - number: "03"
       slug: distilled-colleague
@@ -95,7 +95,7 @@ publications:
       - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
         authors: B. Xuan, Y. Yang, and H. Yang
 
-  - group: Peer-Reviewed Publications
+  - group: Published Work
     status: Published
     status_key: published
     entries:
@@ -107,7 +107,8 @@ publications:
 project:
   name: paper-to-paradigm
   lede: A research toolkit for reading papers, understanding studies, and reconstructing experiments.
-  summary: It carefully dissects papers and reconnects theory, variables, participant experience, research procedures, data, and analysis so that a study can be reconstructed from the participant's perspective.
+  summary: Starting with what participants experience, the toolkit maps a paper's theory, variables, and experimental procedures. It then checks how materials, data, and analyses fit together to support study reconstruction.
+  workflow: Use paper-anatomy to understand a study's design and evidential limits, then paper-reconstruction to work through its procedures, materials, and data structure.
   tags:
     - Experimental Research
     - Behavioral Science
