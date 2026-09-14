@@ -973,6 +973,91 @@ html[data-theme="dark"] .research-question-band {
 }
 
 /* Lightweight local symbols for the small icon set used by this site. */
+#search-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.25rem;
+  border: 1px solid color-mix(in srgb, var(--global-divider-color) 78%, var(--site-ink-blue)) !important;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--global-bg-color) 82%, var(--site-accent-soft)) !important;
+  box-shadow: 0 3px 10px rgba(28, 48, 40, 0.05);
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+#search-toggle .nav-link {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  gap: 0.48rem;
+  align-items: center;
+  padding: 0.32rem 0.62rem;
+  color: inherit;
+  font-family: var(--font-meta);
+  font-size: 0.66rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#search-toggle:hover {
+  border-color: var(--site-warm) !important;
+  background: var(--site-accent-soft) !important;
+  box-shadow: 0 7px 16px rgba(28, 48, 40, 0.12);
+  transform: translateY(-1px);
+}
+
+#search-toggle:active {
+  box-shadow: 0 2px 7px rgba(28, 48, 40, 0.1);
+  transform: translateY(0) scale(0.97);
+}
+
+#search-toggle:focus-visible {
+  outline: 2px solid var(--site-warm);
+  outline-offset: 3px;
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  flex: 0 0 0.9rem;
+  transform: rotate(-8deg);
+  transition: transform 180ms ease;
+}
+
+.fa-magnifying-glass::before {
+  position: absolute;
+  top: 0.04rem;
+  left: 0.04rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  border: 1.6px solid currentColor;
+  border-radius: 50%;
+  content: "";
+}
+
+.fa-magnifying-glass::after {
+  position: absolute;
+  right: 0.04rem;
+  bottom: 0.08rem;
+  width: 0.38rem;
+  height: 1.6px;
+  border-radius: 999px;
+  background: currentColor;
+  content: "";
+  transform: rotate(45deg);
+  transform-origin: right center;
+}
+
+#search-toggle:hover .fa-magnifying-glass {
+  transform: rotate(0deg) scale(1.08);
+}
+
 #light-toggle i,
 .skill-item > i {
   display: inline-block;
