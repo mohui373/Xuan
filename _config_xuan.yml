@@ -46,6 +46,17 @@ analytics:
   cloudflare: 20884074bd864f8f945d6900dca56727
 
 third_party_libraries:
+  # The current pages use only a few decorative icons. Local CSS symbols avoid
+  # three render-blocking icon stylesheets from an external CDN.
+  fontawesome:
+    url:
+      css: ""
+  academicons:
+    url:
+      css: ""
+  scholar-icons:
+    url:
+      css: ""
   google_fonts:
     url:
       fonts: /Xuan/assets/css/local-fonts.css

@@ -971,3 +971,46 @@ html[data-theme="dark"] .research-question-band {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Lightweight local symbols for the small icon set used by this site. */
+#light-toggle i,
+.skill-item > i {
+  display: inline-block;
+  width: 1.15em;
+  font-family: inherit;
+  font-style: normal;
+  line-height: 1;
+  text-align: center;
+}
+
+.fa-half-sun-moon::before {
+  content: "◐" !important;
+}
+
+.fa-half-sun-moon::after {
+  display: none !important;
+}
+
+.fa-moon::before {
+  content: "☾" !important;
+}
+
+.fa-sun::before {
+  content: "☀" !important;
+}
+
+.fa-flask::before {
+  content: "◇" !important;
+}
+
+.fa-chart-line::before {
+  content: "↗" !important;
+}
+
+.fa-laptop-code::before {
+  content: "⌘" !important;
+}
+
+.fa-lightbulb::before {
+  content: "✦" !important;
+}
