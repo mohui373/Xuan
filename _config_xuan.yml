@@ -25,18 +25,17 @@ al_folio:
 
 navbar_fixed: true
 footer_fixed: false
-search_enabled: false
-socials_in_search: false
+search_enabled: true
+socials_in_search: true
 posts_in_search: false
-bib_search: false
+bib_search: true
 max_width: 1120px
 
-# Keep the public site lean: these global runtimes are not used by the current
-# hand-authored pages, but otherwise add scripts and network requests to every page.
-enable_masonry: false
+# Preserve the site's useful interactions while leaving unused heavy runtimes off.
+enable_masonry: true
 enable_math: false
 enable_medium_zoom: false
-enable_progressbar: false
+enable_progressbar: true
 
 serve_og_meta: true
 serve_schema_org: true
