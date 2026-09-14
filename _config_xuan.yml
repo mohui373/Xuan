@@ -31,7 +31,7 @@ posts_in_search: false
 bib_search: true
 max_width: 1120px
 
-# Preserve the site's useful interactions while leaving unused heavy runtimes off.
+# Preserve search, project layout, and reading feedback while leaving unused heavy runtimes off.
 enable_masonry: true
 enable_math: false
 enable_medium_zoom: false
