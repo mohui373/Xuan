@@ -29,6 +29,7 @@ search_enabled: true
 socials_in_search: true
 posts_in_search: false
 bib_search: true
+# The compact, locally drawn search control is styled in _sass/_site.scss.
 max_width: 1120px
 
 # Preserve search, project layout, and reading feedback while leaving unused heavy runtimes off.
