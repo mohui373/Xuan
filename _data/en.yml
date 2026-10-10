@@ -14,7 +14,7 @@ profile:
 
 core_question:
   title: When circumstances change how people pursue their goals, how do they interpret the situation and adjust their actions?
-  keywords: Goal commitment after reassignment, rule compliance under moral reminders, and employee responses to AI-driven layoffs.
+  keywords: Goal commitment after reassignment, employee responses to AI-driven layoffs, and rule compliance under moral reminders.
 
 research:
   intro: Across these projects, I examine how motivation and cognitive appraisal influence judgment, attitudes, and behavior when people encounter social norms, setbacks, constrained choices, or organizational change.
@@ -42,6 +42,31 @@ research:
       osf_label: View the preregistration and materials on OSF
 
     - number: "02"
+      slug: distilled-colleague
+      title: AI, Organizational Change & Employee Behavior
+      study_title: The Distilled Colleague
+      paper_title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
+      status: In Preparation
+      status_key: preparation
+      question: When a colleague's knowledge is distilled into an AI agent but their position is eliminated, how do layoff survivors evaluate the organization and respond to subsequent requests for knowledge?
+      summary: This study examines a situation in which an organization encodes a colleague's experience, judgment rules, and work procedures into an AI agent, retaining their knowledge while eliminating their position. A preregistered immersive scenario experiment compared this arrangement with conventional layoffs. Here, “distillation” is a metaphor for the encoding of experience and job replacement, not a specific model-training technique.
+      design:
+        - One preregistered immersive scenario experiment with a two-condition between-subjects design
+        - Socially recruited sample, N = 264; random assignment, 132 participants per condition
+        - AI knowledge distillation-driven vs. conventional layoffs; a colleague is dismissed and the participant remains employed in both conditions
+        - A slider task captures effort to express a policy stance; questionnaires assess organizational evaluations, job insecurity, and knowledge-hiding intentions
+      diagram:
+        - AI knowledge distillation-driven vs. conventional layoffs
+        - Moral evaluation, organizational trust, and job insecurity
+        - Policy expression and knowledge-hiding intentions
+      findings:
+        - Compared with conventional layoffs, AI knowledge distillation-driven layoffs elicited more opposition-oriented signed policy expression, lower moral evaluations and organizational trust, and higher job insecurity and knowledge-hiding intentions.
+        - Exploratory single-mediator models suggested associations linking moral evaluation and organizational trust separately to policy expression, and job insecurity to knowledge-hiding intentions. When moral evaluation and trust were included together, only the indirect-effect interval for moral evaluation excluded zero.
+        - Neither the predicted positive association between work-knowledge psychological ownership and knowledge-hiding intentions nor its moderating role in the layoff-condition effect was supported.
+      limitations: The study measures knowledge-hiding intentions in a simulated scenario, not actual hiding behavior. The “two weeks later” setting is hypothetical, not a longitudinal follow-up. Mediators were not independently manipulated, so mediation analyses do not establish causal mechanisms.
+      note: The experiment and primary analyses are complete; the manuscript is in preparation and has not been submitted. No public OSF links to data, code, or materials are currently available.
+
+    - number: "03"
       slug: moral-reminders
       title: Social Norms & Moral Decision-Making
       status: In Preparation
@@ -59,25 +84,6 @@ research:
         - Cheating and rule compliance
       note: The manuscript is in preparation.
 
-    - number: "03"
-      slug: distilled-colleague
-      title: AI, Organizational Change & Employee Behavior
-      status: Ongoing Research
-      status_key: ongoing
-      question: Do employees interpret replacement by AI and layoffs caused by conventional organizational factors as fundamentally different events?
-      summary: This project compares AI-driven and conventional layoffs, focusing on how layoff survivors reassess knowledge, job security, organizational relationships, and subsequent work behavior.
-      design:
-        - AI-driven layoffs vs. conventional layoffs
-        - Knowledge hiding and work attitudes
-        - Perceived value of one's knowledge and job-security perceptions
-        - The theoretical model and variable structure will be refined as the project progresses
-      diagram:
-        - AI-driven vs. conventional layoffs
-        - Survivors' interpretation of the event
-        - Reappraisal of knowledge, job, and organizational relationships
-        - Knowledge hiding and work attitudes
-      note: Conceptual and ongoing. No public data, statistical results, formal hypotheses, or submission status are available yet.
-
 publications:
   - group: Manuscripts Under Review
     status: Under Review
@@ -92,6 +98,9 @@ publications:
     status: In Preparation
     status_key: preparation
     entries:
+      - title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
+        authors: B. Xuan and H. Yang
+        note: Experiment and primary analyses completed; manuscript in preparation, not yet submitted.
       - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
         authors: B. Xuan, Y. Yang, and H. Yang
 
@@ -195,6 +204,10 @@ cv:
   publications:
     - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
       status: Under Review
+    - title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
+      status: In Preparation
+      authors: B. Xuan and H. Yang
+      note: Experiment and primary analyses completed; not yet submitted.
     - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
       status: In Preparation
     - title: "How Emergency Industry Management at Universities During Special Periods Shapes Students' School Identification: A Grounded-Theory Interview Study"

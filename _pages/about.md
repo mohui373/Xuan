@@ -35,7 +35,7 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
   <section class="research-question-band" aria-labelledby="core-question">
     <p class="section-eyebrow">贯穿研究的问题</p>
     <h2 id="core-question">当环境改变了追求目标的方式，人会如何理解处境、调整行动？</h2>
-    <p>从调剂后的目标投入，到道德提醒下的规则遵从，再到 AI 裁员后的员工反应。</p>
+    <p>从调剂后的目标投入，到 AI 裁员后的员工反应，再到道德提醒下的规则遵从。</p>
   </section>
 
   <section class="site-section" aria-labelledby="streams-title">

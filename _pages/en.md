@@ -69,6 +69,7 @@ lang: en
           </div>
           <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
         </header>
+        {% if stream.study_title %}<h3>{{ stream.study_title }}</h3>{% endif %}
         <p class="research-question">{{ stream.question }}</p>
         <p>{{ stream.summary }}</p>
         <div class="research-detail-grid">
@@ -85,6 +86,15 @@ lang: en
             </ol>
           </div>
         </div>
+        {% if stream.findings %}
+          <section aria-labelledby="en-{{ stream.slug }}-findings">
+            <h3 id="en-{{ stream.slug }}-findings">Main Findings</h3>
+            <ul class="clean-list">
+              {% for finding in stream.findings %}<li>{{ finding }}</li>{% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+        {% if stream.limitations %}<p class="research-note">Scope and limitations: {{ stream.limitations }}</p>{% endif %}
         <p class="research-note">{{ stream.note }}</p>
         {% if stream.osf_url %}
           <p class="research-resource"><a href="{{ stream.osf_url }}" target="_blank" rel="noopener noreferrer">{{ stream.osf_label }}</a></p>
@@ -231,7 +241,11 @@ lang: en
         {% for entry in en.cv.publications %}
           <article class="english-entry">
             <p class="english-entry-date">{{ entry.status }}</p>
-            <div><h4>{{ entry.title }}</h4></div>
+            <div>
+              <h4>{{ entry.title }}</h4>
+              {% if entry.authors %}<p>{{ entry.authors }}</p>{% endif %}
+              {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+            </div>
           </article>
         {% endfor %}
       </div>

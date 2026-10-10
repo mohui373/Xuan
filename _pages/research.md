@@ -32,6 +32,7 @@ nav_order: 1
 </div>
 <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
 </header>
+{% if stream.study_title %}<h3>{{ stream.study_title }}</h3>{% endif %}
 <p class="research-question">{{ stream.question }}</p>
 <p>{{ stream.summary }}</p>
 
@@ -49,6 +50,15 @@ nav_order: 1
           </ol>
         </div>
       </div>
+      {% if stream.findings %}
+        <section aria-labelledby="{{ stream.slug }}-findings">
+          <h3 id="{{ stream.slug }}-findings">主要发现</h3>
+          <ul class="clean-list">
+            {% for finding in stream.findings %}<li>{{ finding }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+      {% if stream.limitations %}<p class="research-note">研究边界：{{ stream.limitations }}</p>{% endif %}
       <p class="research-note">{{ stream.note }}</p>
       {% if stream.osf_url %}
         <p class="research-resource"><a href="{{ stream.osf_url }}" target="_blank" rel="noopener noreferrer">{{ stream.osf_label }}</a></p>

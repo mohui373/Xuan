@@ -27,9 +27,21 @@ cv_en = english["cv"]
 require(len(research_zh) == len(research_en), "research stream counts differ")
 for zh, en in zip(research_zh, research_en, strict=True):
     require(zh["slug"] == en["slug"], f"research slug differs: {zh['slug']}")
+    require(zh["number"] == en["number"], f"research number differs: {zh['slug']}")
     require(zh["status_key"] == en["status_key"], f"research status key differs: {zh['slug']}")
-    require(zh["status"] == en["status"], f"research status differs: {zh['slug']}")
+    localized_status = {
+        "review": {"Under Review", "审稿中"},
+        "preparation": {"In Preparation", "准备中", "稿件完善中"},
+        "ongoing": {"Ongoing Research", "研究进行中"},
+    }
+    allowed_status = localized_status[zh["status_key"]]
+    require(zh["status"] in allowed_status and en["status"] in allowed_status, f"research status label differs: {zh['slug']}")
     require(zh.get("osf_url") == en.get("osf_url"), f"OSF link differs: {zh['slug']}")
+    if en.get("paper_title"):
+        require(zh.get("paper_title") == en["paper_title"], f"paper title differs: {zh['slug']}")
+    for field in ("design", "diagram", "findings"):
+        require(len(zh.get(field, [])) == len(en.get(field, [])), f"research {field} counts differ: {zh['slug']}")
+    require(bool(zh.get("limitations")) == bool(en.get("limitations")), f"research limitations differ: {zh['slug']}")
 
 section_pairs = {
     "Education": "education",
