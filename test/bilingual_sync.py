@@ -78,7 +78,8 @@ for chinese_key, english_key in (("Education", "education"), ("Experience", "exp
 for zh, en in zip(cv_zh["Academic Presentations"], cv_en["presentations"], strict=True):
     require(zh["title"] == en["original_title"], "conference name differs")
     require(str(zh["date"]) == str(en["date"]), "conference year differs")
-    require(zh["format"] == "口头报告" and en["format"] == "Oral presentation", "conference format differs")
+    presentation_formats = {"口头报告": "Oral presentation", "海报报告": "Poster presentation", "参会": "Conference attendance"}
+    require(presentation_formats.get(zh["format"]) == en["format"], "conference format differs")
 
 require("summary" not in load_yaml("_data/cv.yml")["cv"] and "summary" not in cv_en, "CV summary was restored")
 for zh, en in zip(cv_zh["Publications"][:3], cv_en["publications"][:3], strict=True):
