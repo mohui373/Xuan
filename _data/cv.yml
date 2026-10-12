@@ -3,7 +3,6 @@ cv:
   label: 基础心理学硕士研究生
   email: huimo7627@gmail.com
   image: ""
-  summary: 研究实验社会心理学与组织行为，关注社会规范、目标受挫与组织变革如何通过动机和认知评价影响人的态度与后续行为。
 
   social_networks:
     - network: GitHub
@@ -14,8 +13,8 @@ cv:
       - institution: 闽南师范大学
         area: 基础心理学
         studyType: 硕士研究生（在读）
-        start_date: 2024-09
-        end_date: 2027-06
+        start_date: "2024.09"
+        end_date: "2027.06"
         highlights:
           - MATLAB 程序设计、多因素实验设计方法、心理测量建模与统计方法
           - 认知神经与现代心理研究技术、视知觉与虚拟现实技术
@@ -24,8 +23,8 @@ cv:
       - institution: 湖南理工大学
         area: 人力资源管理
         studyType: 本科
-        start_date: 2020-09
-        end_date: 2024-06
+        start_date: "2020.09"
+        end_date: "2024.06"
         highlights:
           - 兼具管理学与心理学相关训练
           - 本科论文：巴林特小组对提高中学教师工作满意度的效果研究
@@ -33,8 +32,8 @@ cv:
     Experience:
       - company: 湖南理工学院心理健康教育中心
         position: 策划部部长
-        start_date: 2020-10
-        end_date: 2022-06
+        start_date: "2020.10"
+        end_date: "2022.06"
         summary: 负责校级心理健康活动的前期策划、组织实施、预算与资料管理，并参与团体辅导活动。
         highlights:
           - 心理健康活动策划与落地
@@ -42,8 +41,8 @@ cv:
 
       - company: 湖南理工学院学生社团联合中心
         position: 监察部部长
-        start_date: 2020-10
-        end_date: 2022-06
+        start_date: "2020.10"
+        end_date: "2022.06"
         summary: 组织社团活动监察与审核，负责跨部门沟通、活动协调和规范化资料处理。
         highlights:
           - 社团活动审核与现场监察
@@ -58,8 +57,8 @@ cv:
 
       - company: 闽南师范大学心理健康教育咨询中心
         position: 朋辈辅导员
-        start_date: 2026-03
-        end_date: PRESENT
+        start_date: "2026.03"
+        end_date: 至今
         summary: 面向学生的一般心理困扰提供朋辈心理支持与咨询，议题涵盖情绪困扰、自我成长与探索、家庭关系、职业规划、压力与适应、人际关系及恋爱情感。
         highlights:
           - 接受认知行为疗法、精神分析取向、短期动力疗法（CCRT）、心理咨询实务、箱庭疗法、表达性疗法、巴林特小组与团体心理辅导等课程训练
@@ -74,17 +73,22 @@ cv:
           - 关注来电者情绪状态与现实需求，提供短程、支持性心理服务
 
     Projects:
-      - name: 湖南省 2022 年省级大学生创新创业训练项目
+      - name: 湖南省省级大学生创新创业训练项目：疫情下高校防疫措施对在校生学校认同感的影响机制
         position: 项目负责人
         start_date: 2022
         end_date: 2023
-        summary: 项目负责人。研究《特殊时期高校应急产业管理对在校生学校认同感的影响机制》，负责项目设计与推进；相关成果发表于《辽宁青年》。
+        summary: 负责项目设计与推进，结合扎根访谈与问卷研究考察高校防疫措施与学校认同感。成果论文《特殊时期高校应急产业管理对在校生学校认同感的影响机制研究——基于扎根访谈湖南理工学院在校大学生》发表于《辽宁青年》。
 
-      - name: 福建省社会科学规划项目(一般项目)：共同兴趣促进对同伴的目标承诺：信任的中介作用
+      - name: 福建省社会科学规划项目（一般项目）：共同兴趣促进对同伴的目标承诺：信任的中介作用
         position: 主要成员
-        start_date: "2025.9"
-        end_date: PRESENT
-        summary: 主要成员。研究共同兴趣如何通过信任促进对同伴的目标承诺。
+        start_date: "2025.09"
+        end_date: 至今
+        summary: 研究共同兴趣如何通过信任促进对同伴的目标承诺。
+
+    Academic Presentations:
+      - title: 全国校园心理研究实践暨闽台儿童发展与教育学术研讨会
+        date: 2025
+        format: 口头报告
 
     Publications:
       - title: 调剂相关挫折：为何自我说服因更坚定地相信自己的理由而更有效？
@@ -104,7 +108,7 @@ cv:
           - Xuan, B.
           - Yang, Y.
           - Yang, H.
-        releaseDate: 准备中
+        releaseDate: 稿件完善中
 
       - title: 特殊时期高校应急产业管理对在校生学校认同感的影响机制研究——基于扎根访谈湖南理工学院在校大学生
         authors:
@@ -152,7 +156,7 @@ cv:
         date: 2025
         awarder: 闽南师范大学
 
-      - title: 三好学生
+      - title: 三好研究生
         date: 2025
         awarder: 闽南师范大学
 
@@ -205,7 +209,7 @@ cv:
         awarder: 湖南省
 
     Languages:
-      - name: English
+      - name: 英语
         summary: CET-6；具备英文学术文献阅读、英文摘要和英文论文初稿写作经验
 
       - name: 韩语

@@ -42,11 +42,14 @@ for zh, en in zip(research_zh, research_en, strict=True):
     for field in ("design", "diagram", "findings"):
         require(len(zh.get(field, [])) == len(en.get(field, [])), f"research {field} counts differ: {zh['slug']}")
     require(bool(zh.get("limitations")) == bool(en.get("limitations")), f"research limitations differ: {zh['slug']}")
+    for field in ("study_title", "findings", "limitations"):
+        require(bool(zh.get(field)) and bool(en.get(field)), f"research section missing {field}: {zh['slug']}")
 
 section_pairs = {
     "Education": "education",
     "Experience": "experience",
     "Projects": "projects",
+    "Academic Presentations": "presentations",
     "Publications": "publications",
     "Skills": "skills",
     "Open Source Projects": "open_source",
@@ -59,6 +62,32 @@ for chinese_key, english_key in section_pairs.items():
         len(cv_zh[chinese_key]) == len(cv_en[english_key]),
         f"CV item count differs for {chinese_key} / {english_key}",
     )
+
+def normalized_date(value):
+    return str(value).replace("至今", "Present").replace("PRESENT", "Present")
+
+
+for chinese_key, english_key in (("Education", "education"), ("Experience", "experience"), ("Projects", "projects")):
+    for zh, en in zip(cv_zh[chinese_key], cv_en[english_key], strict=True):
+        for field in ("date", "start_date", "end_date"):
+            if field in zh or field in en:
+                require(normalized_date(zh.get(field)) == normalized_date(en.get(field)), f"CV {field} differs: {chinese_key}")
+                value = normalized_date(zh.get(field))
+                require(value == "Present" or re.fullmatch(r"\d{4}(?:\.(?:0[1-9]|1[0-2]))?", value), f"CV date format differs: {value}")
+
+for zh, en in zip(cv_zh["Academic Presentations"], cv_en["presentations"], strict=True):
+    require(zh["title"] == en["original_title"], "conference name differs")
+    require(str(zh["date"]) == str(en["date"]), "conference year differs")
+    require(zh["format"] == "口头报告" and en["format"] == "Oral presentation", "conference format differs")
+
+require("summary" not in load_yaml("_data/cv.yml")["cv"] and "summary" not in cv_en, "CV summary was restored")
+for zh, en in zip(cv_zh["Publications"][:3], cv_en["publications"][:3], strict=True):
+    require("summary" not in zh and "note" not in en and "authors" not in en, "compact manuscript format differs")
+
+chinese_cv_page = (ROOT / "_pages/cv.md").read_text(encoding="utf-8")
+for anchor in ("education", "experience", "projects", "presentations", "publications", "awards", "languages"):
+    require(f'id="{anchor}"' in chinese_cv_page, f"Chinese CV is missing #{anchor}")
+require("Professional Summary" not in chinese_cv_page, "CV summary heading was restored")
 
 bibtex = (ROOT / "_bibliography/papers.bib").read_text(encoding="utf-8")
 bib_count = len(re.findall(r"^@\w+\{", bibtex, flags=re.MULTILINE))

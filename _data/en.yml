@@ -22,21 +22,28 @@ research:
     - number: "01"
       slug: reassignment-setback
       title: Setbacks, Persuasion & Goal Pursuit
+      study_title: Reassignment Setbacks, Self-Persuasion & Goal Commitment
+      paper_title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
       status: Under Review
       status_key: review
       question: When an original goal can no longer be pursued, how do people recommit to an alternative goal they did not initially choose?
       summary: This work compares self-persuasion with other-persuasion to examine how people rebuild goal commitment, confidence, and sustained effort after reassignment-related setbacks.
       design:
-        - Three preregistered experiments
-        - Student-organization role reassignment scenario
-        - Hamlet theater-role reassignment scenario
-        - Behavioral measures using the Charging Task and Slider Task
+        - Three preregistered experiments comparing self-persuasion, other-persuasion, and control conditions
+        - Student-organization role reassignment in Experiment 1; Hamlet theater-role reassignment in Experiments 2 and 3
+        - Adapted Charging Tasks in Experiments 1 and 2; an adapted Slider Task in Experiment 3
+        - Goal commitment, willingness to remain in the assigned role, endorsement of self-generated reasons, confidence, and hope
       diagram:
         - Reassignment-related setback
         - Self-persuasion
         - Endorsement of self-generated reasons
         - Confidence and hope
         - Goal commitment and sustained effort
+      findings:
+        - Across three experiments, self-persuasion was more effective than other-persuasion in promoting commitment to an alternative goal after reassignment setbacks and increased willingness to remain in the assigned role.
+        - Mediation analyses suggested pathways involving endorsement of self-generated reasons, confidence, and hope. The advantage should not be interpreted as evidence that the reasons were objectively better.
+        - Moderation analyses indicated a clearer benefit of self-persuasion at moderate to high levels of work passion; no clear advantage was observed at low levels.
+      limitations: The evidence comes from simulated reassignment scenarios. Mediation and moderation results must be interpreted in light of each experiment's design; statistical pathways alone do not establish causal mechanisms or long-term changes following real academic or workplace reassignment.
       note: Three preregistered experiments; the manuscript is under review.
       osf_url: https://osf.io/uke2j
       osf_label: View the preregistration and materials on OSF
@@ -69,19 +76,26 @@ research:
     - number: "03"
       slug: moral-reminders
       title: Social Norms & Moral Decision-Making
+      study_title: Moral-Rule Priming, Achievement Motivation & Cheating
+      paper_title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
       status: In Preparation
       status_key: preparation
       question: Why does the same moral reminder affect people differently?
       summary: This research examines how moral-rule primes and achievement-motivation orientations jointly influence cheating and rule compliance.
       design:
-        - 2 × 2 between-subjects experimental design
-        - Achievement-motivation orientation: MAF vs. MAS
-        - Priming condition: moral-rule prime vs. blank-screen control
-        - University student sample, N = 213
+        - 2 × 2 between-subjects design; university student sample, N = 213
+        - Motive to avoid failure (MAF) vs. motive to achieve success (MAS), classified using a Ring Toss Game and validated with a revised achievement-motivation scale
+        - Moral-rule priming through a lexical-decision task vs. a blank-screen control
+        - An adapted Joker task measures cheating through exploitation of a feedback loophole, with cheating rate as the primary outcome
       diagram:
         - Moral-rule reminder
         - × Achievement-motivation orientation
         - Cheating and rule compliance
+      findings:
+        - The main effect of moral-rule priming was not statistically significant, but achievement-motivation type interacted significantly with moral-rule priming.
+        - Moral-rule priming reduced cheating among MAF participants; no statistically significant difference was observed among MAS participants.
+        - Earlier recognition of the Joker task's feedback loophole was associated with higher cheating rates, suggesting a link with discovering an exploitable opportunity.
+      limitations: Achievement motivation was classified using a task and validated with a scale, not randomly manipulated; differences cannot be interpreted as causal effects of motivation type. The findings come from a specific student sample and task. A nonsignificant difference among MAS participants does not establish that moral reminders have no effect.
       note: The manuscript is in preparation.
 
 publications:
@@ -100,7 +114,6 @@ publications:
     entries:
       - title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
         authors: B. Xuan and H. Yang
-        note: Experiment and primary analyses completed; manuscript in preparation, not yet submitted.
       - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
         authors: B. Xuan, Y. Yang, and H. Yang
 
@@ -142,8 +155,6 @@ methods:
     summary: R, SPSS, E-Prime, MATLAB, Mplus, AMOS, MAXQDA, NVivo, and Excel
 
 cv:
-  summary: Master's student in basic psychology working across experimental social psychology and organizational behavior, with interests in social norms, goal setbacks, organizational change, and the motivational and cognitive processes that shape subsequent attitudes and behavior.
-
   education:
     - institution: Minnan Normal University
       degree: M.S. Student in Basic Psychology
@@ -190,16 +201,22 @@ cv:
       summary: Trained in psychological-support hotline practice, confidentiality, and crisis identification; provide attentive listening, problem clarification, emotional support, preliminary risk screening, and referrals for adolescents and parents.
 
   projects:
-    - title: Hunan Provincial Undergraduate Innovation and Entrepreneurship Training Project (2022)
+    - title: "Hunan Provincial Undergraduate Innovation and Entrepreneurship Training Project: How University Pandemic-Prevention Measures Shape Students' School Identification"
       role: Project Lead
       start_date: "2022"
       end_date: "2023"
-      summary: Led the design and implementation of a study on how emergency industry management at universities shaped students' school identification; related findings were published in Liaoning Youth.
+      summary: Led project design and implementation, combining grounded-theory interviews and questionnaires to examine pandemic-prevention measures and school identification. The resulting paper on university emergency industry management and students' school identification was published in Liaoning Youth.
     - title: "Fujian Provincial Social Science Planning Project (General Program): How Shared Interests Foster Goal Commitment to Peers—The Mediating Role of Trust"
       role: Core Team Member
       start_date: "2025.09"
       end_date: Present
       summary: Contribute to research on how shared interests promote commitment to peers' goals through trust.
+
+  presentations:
+    - title: National Symposium on School Psychology Research and Practice and Fujian–Taiwan Child Development and Education
+      original_title: 全国校园心理研究实践暨闽台儿童发展与教育学术研讨会
+      date: "2025"
+      format: Oral presentation
 
   publications:
     - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
@@ -210,6 +227,7 @@ cv:
       status: In Preparation
     - title: "How Emergency Industry Management at Universities During Special Periods Shapes Students' School Identification: A Grounded-Theory Interview Study"
       status: Published, 2023
+      venue: Liaoning Youth, 2023, No. 8, pp. 27–28
 
   skills:
     - title: Research Design
@@ -231,7 +249,7 @@ cv:
       date: "2026"
     - title: Second-Class Graduate Scholarship
       date: "2025"
-    - title: Outstanding Student
+    - title: Outstanding Graduate Student
       date: "2025"
     - title: Third Prize, Regional Final, 1st University Student Psychology and Cognitive Intelligence Assessment Challenge
       date: "2025"

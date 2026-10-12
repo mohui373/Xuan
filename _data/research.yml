@@ -4,8 +4,9 @@ streams:
     title: 受挫、说服与目标追求
     english_title: Setbacks, Persuasion & Goal Pursuit
     card_title: 调剂相关挫折：为什么自我说服更加有效？
+    study_title: 调剂挫折、自我说服与目标承诺
     paper_title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
-    status: Under Review
+    status: 审稿中
     status_key: review
     osf_url: https://osf.io/uke2j
     osf_label: 在 OSF 查看该研究的预注册与材料
@@ -13,16 +14,21 @@ streams:
     summary: 比较自我说服与他人说服，考察个体经历调剂相关挫折后如何重建目标承诺、信心与持续投入。
     tags: [Self-Persuasion, Goal Commitment, Setbacks]
     design:
-      - 三个预注册实验
-      - 学生社团部门调剂情境
-      - Hamlet 剧场角色调剂情境
-      - Charging Task 与 Slider Task 行为测量
+      - 三个预注册实验；比较自我说服、他人说服与控制条件
+      - 实验 1 采用学生社团部门调剂情境；实验 2、3 采用《哈姆雷特》剧场角色调剂情境
+      - 实验 1、2 使用改编的 Charging Task；实验 3 使用改编的 Slider Task
+      - 考察目标承诺、留任意愿及对自身生成理由的认可、信心与希望
     diagram:
       - 调剂相关挫折
       - 自我说服
       - 对自身生成理由的认可
       - 信心与希望
       - 目标承诺与持续投入
+    findings:
+      - 三个实验中，自我说服相较于他人说服更能促进调剂挫折后的新目标承诺，并增强留在被分配位置中的意愿。
+      - 中介分析提示，对自身生成理由的认可、信心与希望可能连接自我说服与目标承诺；这一优势不应直接解释为理由在客观上更优。
+      - 工作热情的调节分析显示，中高水平工作热情下自我说服的促进作用更明显，低水平时未观察到明显优势。
+    limitations: 现有证据来自模拟调剂情境；中介和调节结果应结合具体实验设计解释，不能仅凭统计路径确证因果机制，也不直接代表真实专业或岗位调剂中的长期变化。
     note: 三个预注册实验；稿件正在审稿中。
 
   - number: "02"
@@ -58,19 +64,25 @@ streams:
     title: 社会规范与道德决策
     english_title: Social Norms & Moral Decision-Making
     card_title: "Who Ignores the Rules?"
+    study_title: 道德规则启动、成就动机与作弊行为
     paper_title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
-    status: In Preparation
+    status: 稿件完善中
     status_key: preparation
     question: 为什么同样的道德提醒，对不同的人并不具有相同效果？
     summary: 研究道德规则启动与成就动机类型如何共同影响作弊行为与规则遵从。
     tags: [Moral Reminders, Achievement Motivation, Cheating]
     design:
-      - 2 × 2 被试间实验设计
-      - 成就动机类型：MAF vs. MAS
-      - 启动条件：道德规则启动 vs. 空白屏幕控制
-      - 大学生样本 N = 213
+      - 2 × 2 被试间设计；大学生样本 N = 213
+      - 成就动机类型：失败回避（MAF）vs. 成功追求（MAS）；通过 Ring Toss Game 分类，并用修订版成就动机量表验证
+      - 道德规则启动通过词汇判断任务实现，对照条件为空白屏幕
+      - 改编的 Joker 任务测量利用反馈漏洞的作弊行为，以作弊率为主要结果指标
     diagram:
       - 道德规则提醒
       - × 成就动机类型
       - 作弊行为与规则遵从
-    note: 稿件准备中。
+    findings:
+      - 道德规则启动的主效应未达到显著水平，但成就动机类型与道德规则启动存在显著交互作用。
+      - 对失败回避（MAF）个体，道德规则启动降低了作弊行为；对成功追求（MAS）个体，未观察到显著差异。
+      - 越早觉察到 Joker 任务中的反馈漏洞，作弊率越高，提示不诚实行为与发现可利用机会有关。
+    limitations: 成就动机是通过任务分类并经量表验证得到的，不是随机操纵因素；相关差异不能直接视为动机类型的因果效应。结果来自特定学生样本和任务，MAS 组差异不显著也不等于道德提醒完全无效。
+    note: 稿件完善中。

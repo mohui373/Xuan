@@ -70,11 +70,12 @@ lang: en
           <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
         </header>
         {% if stream.study_title %}<h3>{{ stream.study_title }}</h3>{% endif %}
+        <h3>Core Question</h3>
         <p class="research-question">{{ stream.question }}</p>
         <p>{{ stream.summary }}</p>
         <div class="research-detail-grid">
           <div>
-            <h3>Research Design & Current Focus</h3>
+            <h3>Research Design</h3>
             <ul class="clean-list">
               {% for item in stream.design %}<li>{{ item }}</li>{% endfor %}
             </ul>
@@ -94,7 +95,8 @@ lang: en
             </ul>
           </section>
         {% endif %}
-        {% if stream.limitations %}<p class="research-note">Scope and limitations: {{ stream.limitations }}</p>{% endif %}
+        {% if stream.limitations %}<h3>Scope and Limitations</h3><p class="research-note">{{ stream.limitations }}</p>{% endif %}
+        <h3>Current Status</h3>
         <p class="research-note">{{ stream.note }}</p>
         {% if stream.osf_url %}
           <p class="research-resource"><a href="{{ stream.osf_url }}" target="_blank" rel="noopener noreferrer">{{ stream.osf_label }}</a></p>
@@ -184,7 +186,6 @@ lang: en
         <h2 id="english-cv-title">Academic & Professional Profile</h2>
       </div>
     </div>
-    <p class="english-section-intro">{{ en.cv.summary }}</p>
 
     <section class="english-cv-section">
       <h3>Education</h3>
@@ -236,6 +237,18 @@ lang: en
     </section>
 
     <section class="english-cv-section">
+      <h3>Academic Presentations</h3>
+      <div class="english-entry-list">
+        {% for entry in en.cv.presentations %}
+          <article class="english-entry">
+            <p class="english-entry-date">{{ entry.date }}</p>
+            <div><h4>{{ entry.title }}</h4><p class="english-entry-meta">{{ entry.format }}</p></div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="english-cv-section">
       <h3>Publications & Manuscripts</h3>
       <div class="english-entry-list compact-list">
         {% for entry in en.cv.publications %}
@@ -243,8 +256,7 @@ lang: en
             <p class="english-entry-date">{{ entry.status }}</p>
             <div>
               <h4>{{ entry.title }}</h4>
-              {% if entry.authors %}<p>{{ entry.authors }}</p>{% endif %}
-              {% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+              {% if entry.venue %}<p class="english-entry-meta">{{ entry.venue }}</p>{% endif %}
             </div>
           </article>
         {% endfor %}

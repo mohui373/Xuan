@@ -6,17 +6,25 @@ The Chinese site is the current source of record, and the English site is its co
 
 ## 文件映射 | File Mapping
 
-| 中文内容                                                | 英文镜像                                               | 同步范围                                       |
-| ------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
-| `_pages/about.md`                                       | `_data/en.yml` → `profile`, `core_question`, `methods` | 首页简介、关键词、核心问题、方法               |
-| `_pages/research.md` + `_data/research.yml`             | `_data/en.yml` → `research`                            | 研究总述、三项研究、状态、设计、OSF            |
-| `_pages/publications.md` + `_bibliography/papers.bib`   | `_data/en.yml` → `publications`                        | 论文分组、题目、作者、状态、OSF                |
-| `_pages/projects.md` + `_projects/paper-to-paradigm.md` | `_data/en.yml` → `project`                             | 项目简介、Skills 与 GitHub 链接                |
-| `_data/cv.yml`                                          | `_data/en.yml` → `cv`                                  | 教育、实践、科研项目、论文、技能、荣誉、语言   |
-| `_data/socials.yml` + `_config_xuan.yml`                | `_pages/en.md`                                         | 邮箱、GitHub、ORCID 与站点身份                 |
-| `_sass/_site.scss`                                      | 中英文共用                                             | 视觉样式无需翻译，但必须同时检查两种语言的排版 |
+| 中文内容                                                | 英文镜像                                               | 同步范围                                               |
+| ------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| `_pages/about.md`                                       | `_data/en.yml` → `profile`, `core_question`, `methods` | 首页简介、关键词、核心问题、方法                       |
+| `_pages/research.md` + `_data/research.yml`             | `_data/en.yml` → `research`                            | 研究总述、三项研究、状态、设计、OSF                    |
+| `_pages/publications.md` + `_bibliography/papers.bib`   | `_data/en.yml` → `publications`                        | 论文分组、题目、作者、状态、OSF                        |
+| `_pages/projects.md` + `_projects/paper-to-paradigm.md` | `_data/en.yml` → `project`                             | 项目简介、Skills 与 GitHub 链接                        |
+| `_pages/cv.md` + `_data/cv.yml`                         | `_pages/en.md` + `_data/en.yml` → `cv`                 | 教育、实践、科研项目、学术交流、论文、技能、荣誉、语言 |
+| `_data/socials.yml` + `_config_xuan.yml`                | `_pages/en.md`                                         | 邮箱、GitHub、ORCID 与站点身份                         |
+| `_sass/_site.scss`                                      | 中英文共用                                             | 视觉样式无需翻译，但必须同时检查两种语言的排版         |
 
 英文页面结构统一保存在 `_pages/en.md`，英文文案统一保存在 `_data/en.yml`。除页面结构调整外，日常英文内容更新应优先修改 `_data/en.yml`。
+
+中文简历由 `_pages/cv.md` 直接读取 `_data/cv.yml` 展示，与英文简历共用现有的条目排版。栏目标题使用真实文本，不通过 CSS 伪元素翻译。两边都不展示 Professional Summary。
+
+三项研究统一包含核心问题、研究设计、研究逻辑、主要发现、研究边界和当前状态。`findings` 条目数量、研究排序、稿件状态与公开链接须成对更新。
+
+学术交流使用 `Academic Presentations` / `cv.presentations`，会议名称、年份、报告形式成对维护；未提供的报告题目不推测补写。英文会议名为中文名称的描述性译名，`original_title` 保留中文名称用于核对。
+
+简历日期统一为 `YYYY.MM` 或 `YYYY`；持续经历分别显示“至今”与 `Present`。三篇手稿只显示题名和状态，已发表成果可另显示期刊、期号和页码。
 
 ## 双向同步规则 | Bidirectional Sync Rules
 

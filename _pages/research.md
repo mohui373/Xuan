@@ -33,12 +33,13 @@ nav_order: 1
 <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>
 </header>
 {% if stream.study_title %}<h3>{{ stream.study_title }}</h3>{% endif %}
+<h3>核心问题</h3>
 <p class="research-question">{{ stream.question }}</p>
 <p>{{ stream.summary }}</p>
 
       <div class="research-detail-grid">
         <div>
-          <h3>研究设计与当前关注</h3>
+          <h3>研究设计</h3>
           <ul class="clean-list">
             {% for item in stream.design %}<li>{{ item }}</li>{% endfor %}
           </ul>
@@ -58,7 +59,8 @@ nav_order: 1
           </ul>
         </section>
       {% endif %}
-      {% if stream.limitations %}<p class="research-note">研究边界：{{ stream.limitations }}</p>{% endif %}
+      {% if stream.limitations %}<h3>研究边界</h3><p class="research-note">{{ stream.limitations }}</p>{% endif %}
+      <h3>当前状态</h3>
       <p class="research-note">{{ stream.note }}</p>
       {% if stream.osf_url %}
         <p class="research-resource"><a href="{{ stream.osf_url }}" target="_blank" rel="noopener noreferrer">{{ stream.osf_label }}</a></p>
