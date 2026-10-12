@@ -734,6 +734,23 @@ html[data-theme="dark"] .research-question-band {
   scroll-margin-top: 6rem;
 }
 
+.cv-editorial {
+  padding-top: clamp(2rem, 4vw, 3.5rem);
+}
+
+.cv-editorial .page-intro {
+  padding-bottom: 1.5rem;
+}
+
+.cv-editorial .english-section-nav {
+  margin-bottom: 1.5rem;
+}
+
+.cv-editorial .english-cv-section,
+.english-cv .english-cv-section {
+  padding: 1.75rem 0;
+}
+
 .english-entry-date {
   margin: 0;
   color: var(--site-warm);

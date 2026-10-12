@@ -10,7 +10,7 @@ description: 宣博乐的教育、实践经历、科研项目、论文、学术�
 {% assign cv = site.data.cv.cv %}
 {% assign sections = cv.sections %}
 
-<main class="editorial-page cv-editorial">
+<div class="editorial-page cv-editorial">
   <header class="page-intro"><h1>简历</h1><p>{{ cv.name }} · {{ cv.label }}</p></header>
   <nav class="english-section-nav" aria-label="简历栏目索引">
     <a href="#education">教育背景</a><a href="#experience">实践经历</a><a href="#projects">科研项目</a><a href="#presentations">学术交流</a><a href="#publications">论文与手稿</a><a href="#awards">荣誉与奖励</a>
@@ -103,4 +103,4 @@ description: 宣博乐的教育、实践经历、科研项目、论文、学术�
     <h2>语言能力</h2>
     <div class="english-language-list">{% for entry in sections.Languages %}<p><strong>{{ entry.name }}：</strong>{{ entry.summary }}</p>{% endfor %}</div>
   </section>
-</main>
+</div>
