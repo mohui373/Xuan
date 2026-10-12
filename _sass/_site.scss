@@ -730,25 +730,29 @@ html[data-theme="dark"] .research-question-band {
   overflow-wrap: anywhere;
 }
 
-.cv-editorial section[id] {
-  scroll-margin-top: 6rem;
+.cv .card,
+.cv .list-group-item {
+  background: var(--site-paper);
+  border-color: var(--global-divider-color);
 }
 
-.cv-editorial {
-  padding-top: clamp(2rem, 4vw, 3.5rem);
+.cv h2,
+.cv h3 {
+  color: var(--site-ink-blue);
 }
 
-.cv-editorial .page-intro {
-  padding-bottom: 1.5rem;
+.cv .badge {
+  min-width: 75px;
+  line-height: 1.5;
 }
 
-.cv-editorial .english-section-nav {
-  margin-bottom: 1.5rem;
+.cv .card-title {
+  font-size: 1.25rem;
 }
 
-.cv-editorial .english-cv-section,
-.english-cv .english-cv-section {
-  padding: 1.75rem 0;
+.cv .col-sm-10 {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .english-entry-date {

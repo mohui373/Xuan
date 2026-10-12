@@ -1,106 +1,125 @@
 ---
-layout: default
+layout: page
 permalink: /cv/
 title: 简历
 nav: true
 nav_order: 4
 description: 宣博乐的教育、实践经历、科研项目、论文、学术交流与荣誉。
+toc:
+  sidebar: left
 ---
 
 {% assign cv = site.data.cv.cv %}
 {% assign sections = cv.sections %}
 
-<div class="editorial-page cv-editorial">
-  <header class="page-intro"><h1>简历</h1><p>{{ cv.name }} · {{ cv.label }}</p></header>
-  <nav class="english-section-nav" aria-label="简历栏目索引">
-    <a href="#education">教育背景</a><a href="#experience">实践经历</a><a href="#projects">科研项目</a><a href="#presentations">学术交流</a><a href="#publications">论文与手稿</a><a href="#awards">荣誉与奖励</a>
-  </nav>
+<div class="cv">
+  <a class="anchor" id="contact-information"></a>
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">联系信息</h3>
+    <div class="card-text font-weight-light">
+      <table class="table table-cv table-sm table-borderless"><tbody>
+        <tr><td><b>姓名</b></td><td>{{ cv.name }}</td></tr>
+        <tr><td><b>学术身份</b></td><td>{{ cv.label }}</td></tr>
+        <tr><td><b>邮箱</b></td><td><a href="mailto:{{ cv.email }}">{{ cv.email }}</a></td></tr>
+      </tbody></table>
+    </div>
+  </div>
 
-  <section id="contact" class="english-cv-section">
-    <h2>联系信息</h2>
-    <p>邮箱：<a href="mailto:{{ cv.email }}">{{ cv.email }}</a></p>
-    <p><a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a> · <a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-  </section>
+<a class="anchor" id="education"></a>
 
-  <section id="education" class="english-cv-section">
-    <h2>教育背景</h2>
-    <div class="english-entry-list">
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">教育背景</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in sections.Education %}
-        <article class="english-entry">
-          <p class="english-entry-date">{{ entry.start_date }}—{{ entry.end_date }}</p>
-          <div><h3>{{ entry.area }} · {{ entry.studyType }}</h3><p class="english-entry-meta">{{ entry.institution }}</p><ul class="clean-list">{% for item in entry.highlights %}<li>{{ item }}</li>{% endfor %}</ul></div>
-        </article>
+        <li class="list-group-item"><div class="row">
+          <div class="col-sm-2 text-center"><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ entry.start_date }}<br>{{ entry.end_date }}</span></div>
+          <div class="col-sm-10 mt-2 mt-sm-0"><h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.institution }}</h6><p class="ml-1 ml-md-4">{{ entry.area }} · {{ entry.studyType }}</p><ul class="items">{% for item in entry.highlights %}<li>{{ item }}</li>{% endfor %}</ul></div>
+        </div></li>
       {% endfor %}
-    </div>
-  </section>
+    </ul>
+  </div>
 
-  <section id="experience" class="english-cv-section">
-    <h2>实践经历</h2>
-    <div class="english-entry-list">
+<a class="anchor" id="experience"></a>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">实践经历</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in sections.Experience %}
-        <article class="english-entry">
-          <p class="english-entry-date">{% if entry.date %}{{ entry.date }}{% else %}{{ entry.start_date }}—{{ entry.end_date }}{% endif %}</p>
-          <div><h3>{{ entry.position }}</h3><p class="english-entry-meta">{{ entry.company }}</p><p>{{ entry.summary }}</p>{% if entry.highlights %}<ul class="clean-list">{% for item in entry.highlights %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}</div>
-        </article>
+        <li class="list-group-item"><div class="row">
+          <div class="col-sm-2 text-center"><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{% if entry.date %}{{ entry.date }}{% else %}{{ entry.start_date }}<br>{{ entry.end_date }}{% endif %}</span></div>
+          <div class="col-sm-10 mt-2 mt-sm-0"><h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.position }}</h6><p class="ml-1 ml-md-4"><em>{{ entry.company }}</em></p><p class="ml-1 ml-md-4">{{ entry.summary }}</p>{% if entry.highlights %}<ul class="items">{% for item in entry.highlights %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}</div>
+        </div></li>
       {% endfor %}
-    </div>
-  </section>
+    </ul>
+  </div>
 
-  <section id="projects" class="english-cv-section">
-    <h2>科研项目</h2>
-    <div class="english-entry-list">
+<a class="anchor" id="projects"></a>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">科研项目</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in sections.Projects %}
-        <article class="english-entry">
-          <p class="english-entry-date">{{ entry.start_date }}—{{ entry.end_date }}</p>
-          <div><h3>{{ entry.name }}</h3><p class="english-entry-meta">{{ entry.position }}</p><p>{{ entry.summary }}</p></div>
-        </article>
+        <li class="list-group-item"><div class="row">
+          <div class="col-sm-2 text-center"><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ entry.start_date }}<br>{{ entry.end_date }}</span></div>
+          <div class="col-sm-10 mt-2 mt-sm-0"><h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6><p class="ml-1 ml-md-4"><em>{{ entry.position }}</em></p><p class="ml-1 ml-md-4">{{ entry.summary }}</p></div>
+        </div></li>
       {% endfor %}
-    </div>
-  </section>
+    </ul>
+  </div>
 
-  <section id="presentations" class="english-cv-section">
-    <h2>学术交流</h2>
-    <div class="english-entry-list">
+<a class="anchor" id="presentations"></a>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">学术交流</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in sections["Academic Presentations"] %}
-        <article class="english-entry">
-          <p class="english-entry-date">{{ entry.date }}</p>
-          <div><h3>{{ entry.title }}</h3><p class="english-entry-meta">{{ entry.format }}</p></div>
-        </article>
+        <li class="list-group-item"><div class="row">
+          <div class="col-sm-2 text-center"><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ entry.date }}</span></div>
+          <div class="col-sm-10 mt-2 mt-sm-0"><h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6><p class="ml-1 ml-md-4">{{ entry.format }}</p></div>
+        </div></li>
       {% endfor %}
-    </div>
-  </section>
+    </ul>
+  </div>
 
-  <section id="publications" class="english-cv-section">
-    <h2>论文与手稿</h2>
-    <div class="english-entry-list compact-list">
+<a class="anchor" id="publications"></a>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">论文与手稿</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in sections.Publications %}
-        <article class="english-entry">
-          <p class="english-entry-date">{{ entry.releaseDate }}</p>
-          <div><h3>{{ entry.title }}</h3>{% if entry.publisher %}<p class="english-entry-meta">{{ entry.publisher }}</p>{% endif %}</div>
-        </article>
+        <li class="list-group-item"><div class="row">
+          <div class="col-sm-2 text-center"><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ entry.releaseDate }}</span></div>
+          <div class="col-sm-10 mt-2 mt-sm-0"><h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>{% if entry.publisher %}<p class="ml-1 ml-md-4"><em>{{ entry.publisher }}</em></p>{% endif %}</div>
+        </div></li>
       {% endfor %}
-    </div>
-  </section>
+    </ul>
+  </div>
 
-  <section id="skills" class="english-cv-section">
-    <h2>研究方法与技能</h2>
-    <div class="method-columns">{% for entry in sections.Skills %}<div><h3>{{ entry.name }}</h3><p>{{ entry.keywords }}</p></div>{% endfor %}</div>
-  </section>
+<a class="anchor" id="skills"></a>
 
-  <section id="open-source-projects" class="english-cv-section">
-    <h2>开源项目</h2>
-    {% for entry in sections["Open Source Projects"] %}
-      <article class="english-simple-entry"><h3>{{ entry.name }}</h3><p>{{ entry.summary }}</p><ul class="clean-list">{% for item in entry.highlights %}<li>{% if item contains 'https://' %}<a href="{{ item }}" target="_blank" rel="noopener noreferrer">查看 GitHub</a>{% else %}{{ item }}{% endif %}</li>{% endfor %}</ul></article>
-    {% endfor %}
-  </section>
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">研究方法与技能</h3>
+    <div class="card-text font-weight-light">{% for entry in sections.Skills %}<p><strong>{{ entry.name }}：</strong>{{ entry.keywords }}</p>{% endfor %}</div>
+  </div>
 
-  <section id="awards" class="english-cv-section">
-    <h2>荣誉与奖励</h2>
-    <div class="english-honors-grid">{% for entry in sections.Awards %}<article><span>{{ entry.date }}</span><p>{{ entry.title }}{% if entry.awarder != '' %}<br><small>{{ entry.awarder }}</small>{% endif %}</p></article>{% endfor %}</div>
-  </section>
+<a class="anchor" id="open-source-projects"></a>
 
-  <section id="languages" class="english-cv-section">
-    <h2>语言能力</h2>
-    <div class="english-language-list">{% for entry in sections.Languages %}<p><strong>{{ entry.name }}：</strong>{{ entry.summary }}</p>{% endfor %}</div>
-  </section>
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">开源项目</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">{% for entry in sections["Open Source Projects"] %}<li class="list-group-item"><h6 class="title font-weight-bold">{{ entry.name }}</h6><p>{{ entry.summary }}</p><ul class="items">{% for item in entry.highlights %}<li>{% if item contains 'https://' %}<a href="{{ item }}" target="_blank" rel="noopener noreferrer">查看 GitHub</a>{% else %}{{ item }}{% endif %}</li>{% endfor %}</ul></li>{% endfor %}</ul>
+  </div>
+
+<a class="anchor" id="awards"></a>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">荣誉与奖励</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">{% for entry in sections.Awards %}<li class="list-group-item"><div class="row"><div class="col-sm-2 text-center"><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ entry.date }}</span></div><div class="col-sm-10 mt-2 mt-sm-0"><h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>{% if entry.awarder != '' %}<p class="ml-1 ml-md-4"><em>{{ entry.awarder }}</em></p>{% endif %}</div></div></li>{% endfor %}</ul>
+  </div>
+
+<a class="anchor" id="languages"></a>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">语言能力</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">{% for entry in sections.Languages %}<li class="list-group-item"><strong>{{ entry.name }}：</strong>{{ entry.summary }}</li>{% endfor %}</ul>
+  </div>
 </div>

@@ -18,7 +18,7 @@ The Chinese site is the current source of record, and the English site is its co
 
 英文页面结构统一保存在 `_pages/en.md`，英文文案统一保存在 `_data/en.yml`。除页面结构调整外，日常英文内容更新应优先修改 `_data/en.yml`。
 
-中文简历由 `_pages/cv.md` 直接读取 `_data/cv.yml` 展示，与英文简历共用现有的条目排版。栏目标题使用真实文本，不通过 CSS 伪元素翻译。两边都不展示 Professional Summary。
+中文简历由 `_pages/cv.md` 直接读取 `_data/cv.yml` 展示，采用原有 al-folio 卡片、紧凑条目与左侧目录样式；英文简历保留英文页面的条目排版。两边内容镜像，视觉布局可不同。栏目标题使用真实文本，不通过 CSS 伪元素翻译，两边都不展示 Professional Summary。
 
 三项研究统一包含核心问题、研究设计、研究逻辑、主要发现、研究边界和当前状态。`findings` 条目数量、研究排序、稿件状态与公开链接须成对更新。
 
