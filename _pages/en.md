@@ -25,6 +25,7 @@ lang: en
         <a class="site-action" href="#cv">View CV</a>
       </div>
       <p class="site-profile-links">Academic profiles: <a href="https://orcid.org/0009-0004-9399-9489" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/mohui373" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:huimo7627@gmail.com">Email</a></p>
+      <p class="site-profile-links"><strong>Academic Service:</strong><span>{{ en.profile.academic_service }}</span></p>
     </div>
     <figure class="profile-frame">
       <img src="{{ '/assets/img/profile-bole.webp' | relative_url }}" alt="Academic portrait of Bole Xuan" width="720" height="720" fetchpriority="high" decoding="async">
