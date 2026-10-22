@@ -750,6 +750,10 @@ html[data-theme="dark"] .research-question-band {
   font-size: 1.25rem;
 }
 
+.cv .card-title[id] {
+  scroll-margin-top: 6rem;
+}
+
 .cv .col-sm-10 {
   min-width: 0;
   overflow-wrap: anywhere;
