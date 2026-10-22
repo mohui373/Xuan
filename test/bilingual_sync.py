@@ -86,9 +86,15 @@ for zh, en in zip(cv_zh["Publications"][:3], cv_en["publications"][:3], strict=T
     require("summary" not in zh and "note" not in en and "authors" not in en, "compact manuscript format differs")
 
 chinese_cv_page = (ROOT / "_pages/cv.md").read_text(encoding="utf-8")
-for anchor in ("education", "experience", "projects", "presentations", "publications", "awards", "languages"):
-    require(f'id="{anchor}"' in chinese_cv_page, f"Chinese CV is missing #{anchor}")
+for anchor in ("contact-information", "education", "experience", "projects", "presentations", "publications", "skills", "open-source-projects", "awards", "languages"):
+    require(re.search(rf'<h3\b[^>]*\bid="{anchor}"', chinese_cv_page), f"Chinese CV heading is missing #{anchor}")
+    require(chinese_cv_page.count(f'id="{anchor}"') == 1, f"Chinese CV duplicates #{anchor}")
 require("Professional Summary" not in chinese_cv_page, "CV summary heading was restored")
+
+site_config = load_yaml("_config_xuan.yml")
+require(load_yaml("_config.yml").get("middle_name") == "" and site_config.get("middle_name") == "", "template middle name was restored")
+require("©" not in site_config["footer_text"] and "Copyright" not in site_config["footer_text"], "footer duplicates the theme copyright")
+require("https://github.com/alshedivat/al-folio" in site_config["footer_text"], "footer is missing the al-folio attribution")
 
 bibtex = (ROOT / "_bibliography/papers.bib").read_text(encoding="utf-8")
 bib_count = len(re.findall(r"^@\w+\{", bibtex, flags=re.MULTILINE))
