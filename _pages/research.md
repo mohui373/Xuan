@@ -7,8 +7,17 @@ nav: true
 nav_order: 1
 ---
 
-<main class="editorial-page research-page">
+<link rel="stylesheet" href="{{ '/assets/css/research-motion.css' | relative_url }}">
+<script defer src="{{ '/assets/js/research-motion.js' | relative_url }}"></script>
+
+<main class="editorial-page research-page research-motion">
   <header class="page-intro wide">
+    <svg class="research-compass" viewBox="0 0 100 100" fill="none" aria-hidden="true" focusable="false">
+      <circle cx="50" cy="50" r="40" /><circle cx="50" cy="50" r="29" stroke-dasharray="2 6" />
+      <path d="M50 3v14M50 83v14M3 50h14M83 50h14M20 20l9 9M71 71l9 9M20 80l9-9M71 29l9-9" />
+      <path class="compass-needle" d="m50 23 8 27-8 27-8-27 8-27Zm-27 27h54" />
+      <circle cx="50" cy="50" r="3" />
+    </svg>
     <p class="section-eyebrow">Research</p>
     <h1>当环境改变了追求目标的方式，人会如何理解处境、调整行动？</h1>
     <p>

@@ -5,7 +5,10 @@ permalink: /
 description: 宣博乐的个人学术主页：社会规范、目标受挫、组织与行为、道德行为及 AI 与员工行为。
 ---
 
-<main class="site-home">
+<link rel="stylesheet" href="{{ '/assets/css/research-motion.css' | relative_url }}">
+<script defer src="{{ '/assets/js/research-motion.js' | relative_url }}"></script>
+
+<main class="site-home research-motion">
   <section class="site-hero" aria-labelledby="home-title">
     <div class="site-hero-copy">
       <p class="site-kicker">实验社会心理学 · 组织与行为</p>
@@ -34,6 +37,12 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
   </section>
 
   <section class="research-question-band" aria-labelledby="core-question">
+    <svg class="research-compass" viewBox="0 0 100 100" fill="none" aria-hidden="true" focusable="false">
+      <circle cx="50" cy="50" r="40" /><circle cx="50" cy="50" r="29" stroke-dasharray="2 6" />
+      <path d="M50 3v14M50 83v14M3 50h14M83 50h14M20 20l9 9M71 71l9 9M20 80l9-9M71 29l9-9" />
+      <path class="compass-needle" d="m50 23 8 27-8 27-8-27 8-27Zm-27 27h54" />
+      <circle cx="50" cy="50" r="3" />
+    </svg>
     <p class="section-eyebrow">贯穿研究的问题</p>
     <h2 id="core-question">当环境改变了追求目标的方式，人会如何理解处境、调整行动？</h2>
     <p>从调剂后的目标投入，到 AI 裁员后的员工反应，再到道德提醒下的规则遵从。</p>
@@ -52,7 +61,7 @@ description: 宣博乐的个人学术主页：社会规范、目标受挫、组�
         <article class="stream-row">
           <p class="stream-index">{{ stream.number }}</p>
           <div class="stream-copy">
-            <h3>{{ stream.title }}</h3>
+            <h3><a class="stream-title-link" href="{{ '/research/' | relative_url }}#{{ stream.slug }}">{{ stream.title }}<span aria-hidden="true">↗</span></a></h3>
             <p>{{ stream.question }}</p>
           </div>
           <span class="status status-{{ stream.status_key }}">{{ stream.status }}</span>

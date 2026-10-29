@@ -12,22 +12,24 @@ English: <https://mohui373.github.io/Xuan/en/>
 
 ## 直接编辑入口
 
-| 想改什么                                     | 直接打开编辑页                                                                            | 网页中的位置 |
-| -------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------ |
-| 首页文案、简介、按钮及首页档案链接           | [编辑首页](https://github.com/mohui373/Xuan/edit/main/_pages/about.md)                    | 首页         |
-| 研究页标题与总介绍                           | [编辑研究页](https://github.com/mohui373/Xuan/edit/main/_pages/research.md)               | 研究页       |
-| 具体研究方向、问题、状态及研究 OSF           | [编辑研究数据](https://github.com/mohui373/Xuan/edit/main/_data/research.yml)             | 首页、研究页 |
-| 论文题目、作者及投稿状态                     | [编辑论文数据](https://github.com/mohui373/Xuan/edit/main/_bibliography/papers.bib)       | 首页、论文页 |
-| 论文页说明、分组及说服研究 OSF               | [编辑论文页](https://github.com/mohui373/Xuan/edit/main/_pages/publications.md)           | 论文页       |
-| 教育、实践、项目、学术交流、手稿、技能及荣誉 | [编辑 CV 数据](https://github.com/mohui373/Xuan/edit/main/_data/cv.yml)                   | 简历页       |
-| 简历栏目标题、顺序与展示格式                 | [编辑简历页结构](https://github.com/mohui373/Xuan/edit/main/_pages/cv.md)                 | 简历页       |
-| 开放项目总览                                 | [编辑项目页](https://github.com/mohui373/Xuan/edit/main/_pages/projects.md)               | 项目页       |
-| paper-to-paradigm 项目详情                   | [编辑项目详情](https://github.com/mohui373/Xuan/edit/main/_projects/paper-to-paradigm.md) | 项目详情页   |
-| 导航和搜索中的公开邮箱、GitHub、ORCID        | [编辑社交链接](https://github.com/mohui373/Xuan/edit/main/_data/socials.yml)              | 导航、搜索   |
-| 英文版全部内容（主要编辑入口）               | [直接编辑英文内容](https://github.com/mohui373/Xuan/edit/main/_data/en.yml)               | 英文版       |
-| 头像                                         | [上传头像](https://github.com/mohui373/Xuan/upload/main/assets/img)                       | 首页         |
-| 网站名称、网址、SEO 与全站功能               | [编辑站点配置](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)               | 全站         |
-| 视觉色彩与版式                               | [编辑站点样式](https://github.com/mohui373/Xuan/edit/main/_sass/_site.scss)               | 全站         |
+| 想改什么                                     | 直接打开编辑页                                                                            | 网页中的位置           |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------- |
+| 首页文案、简介、按钮及首页档案链接           | [编辑首页](https://github.com/mohui373/Xuan/edit/main/_pages/about.md)                    | 首页                   |
+| 研究页标题与总介绍                           | [编辑研究页](https://github.com/mohui373/Xuan/edit/main/_pages/research.md)               | 研究页                 |
+| 具体研究方向、问题、状态及研究 OSF           | [编辑研究数据](https://github.com/mohui373/Xuan/edit/main/_data/research.yml)             | 首页、研究页           |
+| 论文题目、作者及投稿状态                     | [编辑论文数据](https://github.com/mohui373/Xuan/edit/main/_bibliography/papers.bib)       | 首页、论文页           |
+| 论文页说明、分组及说服研究 OSF               | [编辑论文页](https://github.com/mohui373/Xuan/edit/main/_pages/publications.md)           | 论文页                 |
+| 教育、实践、项目、学术交流、手稿、技能及荣誉 | [编辑 CV 数据](https://github.com/mohui373/Xuan/edit/main/_data/cv.yml)                   | 简历页                 |
+| 简历栏目标题、顺序与展示格式                 | [编辑简历页结构](https://github.com/mohui373/Xuan/edit/main/_pages/cv.md)                 | 简历页                 |
+| 开放项目总览                                 | [编辑项目页](https://github.com/mohui373/Xuan/edit/main/_pages/projects.md)               | 项目页                 |
+| paper-to-paradigm 项目详情                   | [编辑项目详情](https://github.com/mohui373/Xuan/edit/main/_projects/paper-to-paradigm.md) | 项目详情页             |
+| 导航和搜索中的公开邮箱、GitHub、ORCID        | [编辑社交链接](https://github.com/mohui373/Xuan/edit/main/_data/socials.yml)              | 导航、搜索             |
+| 英文版全部内容（主要编辑入口）               | [直接编辑英文内容](https://github.com/mohui373/Xuan/edit/main/_data/en.yml)               | 英文版                 |
+| 头像                                         | [上传头像](https://github.com/mohui373/Xuan/upload/main/assets/img)                       | 首页                   |
+| 网站名称、网址、SEO 与全站功能               | [编辑站点配置](https://github.com/mohui373/Xuan/edit/main/_config_xuan.yml)               | 全站                   |
+| 视觉色彩与版式                               | [编辑站点样式](https://github.com/mohui373/Xuan/edit/main/_sass/_site.scss)               | 全站                   |
+| 研究页与首页的动效外观                       | [编辑动效样式](https://github.com/mohui373/Xuan/edit/main/assets/css/research-motion.css) | 中文首页、研究、英文版 |
+| 滚动入场与动效的无障碍控制                   | [编辑动效脚本](https://github.com/mohui373/Xuan/edit/main/assets/js/research-motion.js)   | 中文首页、研究、英文版 |
 
 > 如果只修改站点样式 `_sass/_site.scss`，提交后请打开 [Actions](https://github.com/mohui373/Xuan/actions/workflows/deploy.yml)，选择 **Run workflow** 手动运行一次 `Deploy site`；其他上表内容提交后会自动发布。
 

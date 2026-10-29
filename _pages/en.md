@@ -10,7 +10,10 @@ lang: en
 
 {% assign en = site.data.en %}
 
-<main class="site-home english-site" lang="en">
+<link rel="stylesheet" href="{{ '/assets/css/research-motion.css' | relative_url }}">
+<script defer src="{{ '/assets/js/research-motion.js' | relative_url }}"></script>
+
+<main class="site-home english-site research-motion" lang="en">
   <section class="site-hero" aria-labelledby="english-home-title">
     <div class="site-hero-copy">
       <p class="site-kicker">{{ en.profile.kicker }}</p>
@@ -41,6 +44,12 @@ lang: en
   </nav>
 
   <section class="research-question-band" aria-labelledby="english-core-question">
+    <svg class="research-compass" viewBox="0 0 100 100" fill="none" aria-hidden="true" focusable="false">
+      <circle cx="50" cy="50" r="40" /><circle cx="50" cy="50" r="29" stroke-dasharray="2 6" />
+      <path d="M50 3v14M50 83v14M3 50h14M83 50h14M20 20l9 9M71 71l9 9M20 80l9-9M71 29l9-9" />
+      <path class="compass-needle" d="m50 23 8 27-8 27-8-27 8-27Zm-27 27h54" />
+      <circle cx="50" cy="50" r="3" />
+    </svg>
     <p class="section-eyebrow">Core Question</p>
     <h2 id="english-core-question">{{ en.core_question.title }}</h2>
     <p>{{ en.core_question.keywords }}</p>
