@@ -39,6 +39,8 @@ English: <https://mohui373.github.io/Xuan/en/>
 
 本地检查命令：`python test/bilingual_sync.py`。
 
+研究概念的固定译法及使用边界见[网站中英文术语表](docs/TERMINOLOGY.md)。修改专业名词时先核对术语表，再同步中英文内容；页面锚点与文献键保留兼容。
+
 简历中的会议报告写在 `_data/cv.yml` → `Academic Presentations`，英文对应 `_data/en.yml` → `cv.presentations`。日期统一使用 `YYYY.MM` 或年份；中文版持续经历写“至今”，英文写 `Present`。三篇手稿在简历中只展示题名和状态，方法、结果与证据边界放在研究页。
 
 ## 每次修改后的操作

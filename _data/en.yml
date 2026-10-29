@@ -5,7 +5,7 @@ profile:
   name: Bole Xuan
   kicker: Experimental Social Psychology · Organizations & Behavior
   role: Master's Student in Basic Psychology | Minnan Normal University
-  lede: I study how people interpret and respond to goal setbacks, social norms, and organizational layoffs. My work examines how social cues, individual motivation, and cognitive appraisal influence attitudes and behavior.
+  lede: I study how people interpret and respond to goal frustration, social norms, and organizational layoffs. My work examines how social cues, individual motivation, and cognitive appraisal influence attitudes and behavior.
   academic_service: Reviewer for Psychological Reports, Current Psychology, and other journals.
   tags:
     - Experimental Social Psychology
@@ -18,31 +18,31 @@ core_question:
   keywords: Goal commitment after reassignment, employee responses to AI-driven layoffs, and rule compliance under moral reminders.
 
 research:
-  intro: Across these projects, I examine how motivation and cognitive appraisal influence judgment, attitudes, and behavior when people encounter social norms, setbacks, constrained choices, or organizational change.
+  intro: Across these projects, I examine how motivation and cognitive appraisal influence judgment, attitudes, and behavior when people encounter social norms, frustration, constrained choices, or organizational change.
   streams:
     - number: "01"
       slug: reassignment-setback
-      title: Setbacks, Persuasion & Goal Pursuit
-      study_title: Reassignment Setbacks, Self-Persuasion & Goal Commitment
-      paper_title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+      title: Frustration, Persuasion & Goal Pursuit
+      study_title: Reassignment-Related Frustration, Self-Persuasion & Goal Commitment
+      paper_title: "Reassignment-Related Frustration: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
       status: Under Review
       status_key: review
       question: When an original goal can no longer be pursued, how do people recommit to an alternative goal they did not initially choose?
-      summary: This work compares self-persuasion with other-persuasion to examine how people rebuild goal commitment, confidence, and sustained effort after reassignment-related setbacks.
+      summary: This work compares self-persuasion with other-persuasion to examine how people rebuild goal commitment, confidence, and sustained effort after reassignment-related frustration.
       design:
         - Three preregistered experiments comparing self-persuasion, other-persuasion, and control conditions
         - Student-organization role reassignment in Experiment 1; Hamlet theater-role reassignment in Experiments 2 and 3
         - Adapted Charging Tasks in Experiments 1 and 2; an adapted Slider Task in Experiment 3
-        - Goal commitment, willingness to remain in the assigned role, endorsement of self-generated reasons, confidence, and hope
+        - Goal commitment, retention intention for the assigned role, perceived argument quality, confidence, and hope
       diagram:
-        - Reassignment-related setback
+        - Reassignment-related frustration
         - Self-persuasion
-        - Endorsement of self-generated reasons
+        - Perceived argument quality
         - Confidence and hope
         - Goal commitment and sustained effort
       findings:
-        - Across three experiments, self-persuasion was more effective than other-persuasion in promoting commitment to an alternative goal after reassignment setbacks and increased willingness to remain in the assigned role.
-        - Mediation analyses suggested pathways involving endorsement of self-generated reasons, confidence, and hope. The advantage should not be interpreted as evidence that the reasons were objectively better.
+        - Across three experiments, self-persuasion was more effective than other-persuasion in promoting goal commitment after reassignment-related frustration and increased retention intention for the assigned role.
+        - Mediation analyses suggested pathways involving perceived argument quality, confidence, and hope. Perceived argument quality reflects participants' subjective evaluations, not an objective assessment of the reasons.
         - Moderation analyses indicated a clearer benefit of self-persuasion at moderate to high levels of work passion; no clear advantage was observed at low levels.
       limitations: The evidence comes from simulated reassignment scenarios. Mediation and moderation results must be interpreted in light of each experiment's design; statistical pathways alone do not establish causal mechanisms or long-term changes following real academic or workplace reassignment.
       note: Three preregistered experiments; the manuscript is under review.
@@ -81,18 +81,18 @@ research:
       paper_title: "From Opportunity Awareness to Action: Repeated Moral Cues and the Dynamics of Cheating"
       status: Ongoing Research
       status_key: ongoing
-      question: Do repeated moral cues affect the onset and development of cheating, and does honesty-humility moderate this effect?
-      summary: This research examines how repeated masked moral cues relate to cheating choices, focusing on opportunity awareness, the first act of cheating, subsequent behavior, and the moderating role of honesty-humility.
+      question: Do repeated moral cues affect the onset and development of cheating, and does Honesty-Humility moderate this effect?
+      summary: This research examines how repeated masked moral reminders relate to cheating choices, focusing on opportunity awareness, the first act of cheating, subsequent behavior, and the moderating role of Honesty-Humility.
       design:
         - Two-group between-subjects design; a target of at least 200 valid participants, randomly assigned to moral-priming or neutral-control conditions
         - Following Joker task practice and lexical-decision priming, participants complete 40 formal Joker trials, with condition-specific masked words presented before each card draw
         - Card judgments affect actual bonuses; choices at each cheating opportunity are recorded to examine overall cheating rates and cumulative cheating curves
-        - Post-task recall of opportunity awareness and measures of guilt, moral disengagement, subjective conflict, and honesty-humility
+        - Post-task recall of opportunity awareness and measures of guilt, moral disengagement, subjective conflict, and Honesty-Humility
       diagram:
-        - Repeated masked moral cues vs. neutral cues
-        - Opportunity awareness, first cheating choice, and honesty-humility
+        - Repeated masked moral reminders vs. neutral cues
+        - Opportunity awareness, first cheating choice, and Honesty-Humility
         - Cheating choices and cumulative cheating curves
-      limitations: The research is ongoing; the design and proposed questions do not represent established findings. Opportunity-awareness timing relies on retrospective recall, so temporal analyses are exploratory. Honesty-humility is measured, and its associations should not be interpreted as causal effects.
+      limitations: The research is ongoing; the design and proposed questions do not represent established findings. Opportunity-awareness timing relies on retrospective recall, so temporal analyses are exploratory. Honesty-Humility is measured, and its associations should not be interpreted as causal effects.
       note: Research is ongoing, with no conclusions to report yet. The sample target and procedures reflect the current research plan.
 
 publications:
@@ -100,7 +100,7 @@ publications:
     status: Under Review
     status_key: review
     entries:
-      - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+      - title: "Reassignment-Related Frustration: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
         authors: B. Xuan and H. Yang
         resource_url: https://osf.io/uke2j
         resource_label: Preregistration and materials on OSF
@@ -161,7 +161,7 @@ cv:
       highlights:
         - MATLAB programming, multifactor experimental design, psychometric modeling, and statistical methods
         - Cognitive neuroscience, contemporary psychological research methods, visual perception, and virtual reality
-        - Master's thesis: Why is self-persuasion more effective after setbacks? The role of argument quality
+        - Master's thesis: Why is self-persuasion more effective after frustration? The role of perceived argument quality
     - institution: Hunan Institute of Science and Technology
       degree: B.M. in Human Resource Management
       start_date: "2020.09"
@@ -217,7 +217,7 @@ cv:
       format: Oral presentation
 
   publications:
-    - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+    - title: "Reassignment-Related Frustration: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
       status: Under Review
     - title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
       status: Under Review

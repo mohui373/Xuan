@@ -2,31 +2,31 @@ streams:
   - number: "01"
     slug: reassignment-setback
     title: 受挫、说服与目标追求
-    english_title: Setbacks, Persuasion & Goal Pursuit
+    english_title: Frustration, Persuasion & Goal Pursuit
     card_title: 调剂相关挫折：为什么自我说服更加有效？
     study_title: 调剂挫折、自我说服与目标承诺
-    paper_title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
+    paper_title: "Reassignment-Related Frustration: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
     status: 审稿中
     status_key: review
     osf_url: https://osf.io/uke2j
     osf_label: 在 OSF 查看该研究的预注册与材料
     question: 当原有目标无法继续时，人们如何重新投入一个并非最初选择的替代目标？
     summary: 比较自我说服与他人说服，考察个体经历调剂相关挫折后如何重建目标承诺、信心与持续投入。
-    tags: [Self-Persuasion, Goal Commitment, Setbacks]
+    tags: [Self-Persuasion, Goal Commitment, Frustration]
     design:
       - 三个预注册实验；比较自我说服、他人说服与控制条件
       - 实验 1 采用学生社团部门调剂情境；实验 2、3 采用《哈姆雷特》剧场角色调剂情境
       - 实验 1、2 使用改编的 Charging Task；实验 3 使用改编的 Slider Task
-      - 考察目标承诺、留任意愿及对自身生成理由的认可、信心与希望
+      - 考察目标承诺、留任意愿及感知论点质量（对自身生成理由的认可）、信心与希望
     diagram:
       - 调剂相关挫折
       - 自我说服
-      - 对自身生成理由的认可
+      - 感知论点质量
       - 信心与希望
       - 目标承诺与持续投入
     findings:
       - 三个实验中，自我说服相较于他人说服更能促进调剂挫折后的新目标承诺，并增强留在被分配位置中的意愿。
-      - 中介分析提示，对自身生成理由的认可、信心与希望可能连接自我说服与目标承诺；这一优势不应直接解释为理由在客观上更优。
+      - 中介分析提示，感知论点质量、信心与希望可能连接自我说服与目标承诺；该指标反映个体对理由的主观评价，不应直接解释为理由在客观上更优。
       - 工作热情的调节分析显示，中高水平工作热情下自我说服的促进作用更明显，低水平时未观察到明显优势。
     limitations: 现有证据来自模拟调剂情境；中介和调节结果应结合具体实验设计解释，不能仅凭统计路径确证因果机制，也不直接代表真实专业或岗位调剂中的长期变化。
     note: 三个预注册实验；稿件正在审稿中。

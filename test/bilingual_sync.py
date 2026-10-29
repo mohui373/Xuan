@@ -123,5 +123,13 @@ for anchor in ("research", "publications", "projects", "cv"):
     require(f'id="{anchor}"' in english_page, f"English page is missing #{anchor}")
 
 require("Coming Soon" not in english_page, "English page is still a placeholder")
+
+# Keep stable URL/bibliography identifiers, but reject the retired visible term.
+for path in ("_data/en.yml", "_data/research.yml", "_bibliography/papers.bib"):
+    lines = (ROOT / path).read_text(encoding="utf-8").splitlines()
+    visible_lines = [line for line in lines if not re.match(r"\s*slug:|^@\w+\{", line)]
+    require(not re.search(r"\bsetbacks?\b", "\n".join(visible_lines), re.IGNORECASE), f"retired frustration term in {path}")
+require("perceived argument quality" in english["research"]["streams"][0]["design"][-1], "argument-quality term drifted")
+require("Honesty-Humility" in english["research"]["streams"][2]["question"], "Honesty-Humility term drifted")
 print("Bilingual mirror structure is aligned.")
 
