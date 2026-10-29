@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: 论文
-description: 宣博乐的论文、在审手稿与准备中研究。
+description: 宣博乐的论文、在审手稿与进行中研究。
 nav: true
 nav_order: 2
 ---
@@ -21,11 +21,11 @@ nav_order: 2
     <p class="publication-resource">说服研究的预注册与材料：<a href="https://osf.io/uke2j" target="_blank" rel="noopener noreferrer">在 OSF 查看</a></p>
   </section>
 
-  <section class="publication-group" aria-labelledby="preparation-title">
+  <section class="publication-group" aria-labelledby="ongoing-title">
     <div class="section-heading compact">
-      <h2 id="preparation-title">准备中</h2>
+      <h2 id="ongoing-title">研究进行中</h2>
     </div>
-    <div class="publications">{% bibliography --query @*[status=in_preparation] %}</div>
+    <div class="publications">{% bibliography --query @*[status=ongoing] %}</div>
   </section>
 
   <section class="publication-group" aria-labelledby="published-title">

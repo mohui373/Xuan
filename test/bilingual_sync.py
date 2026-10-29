@@ -42,8 +42,12 @@ for zh, en in zip(research_zh, research_en, strict=True):
     for field in ("design", "diagram", "findings"):
         require(len(zh.get(field, [])) == len(en.get(field, [])), f"research {field} counts differ: {zh['slug']}")
     require(bool(zh.get("limitations")) == bool(en.get("limitations")), f"research limitations differ: {zh['slug']}")
-    for field in ("study_title", "findings", "limitations"):
+    for field in ("study_title", "limitations"):
         require(bool(zh.get(field)) and bool(en.get(field)), f"research section missing {field}: {zh['slug']}")
+    if zh["status_key"] == "ongoing":
+        require(not zh.get("findings") and not en.get("findings"), f"ongoing research presents findings: {zh['slug']}")
+    else:
+        require(bool(zh.get("findings")) and bool(en.get("findings")), f"research findings missing: {zh['slug']}")
 
 section_pairs = {
     "Education": "education",
@@ -100,6 +104,19 @@ bibtex = (ROOT / "_bibliography/papers.bib").read_text(encoding="utf-8")
 bib_count = len(re.findall(r"^@\w+\{", bibtex, flags=re.MULTILINE))
 english_publication_count = sum(len(group["entries"]) for group in english["publications"])
 require(bib_count == english_publication_count, "publication counts differ")
+
+status_to_bib = {"review": "under_review", "preparation": "in_preparation", "ongoing": "ongoing"}
+bib_entries = re.split(r"(?=^@\w+\{)", bibtex, flags=re.MULTILINE)
+for index, stream in enumerate(research_zh):
+    matching_bib = [entry for entry in bib_entries if f"title            = {{{stream['paper_title']}}}" in entry]
+    require(len(matching_bib) == 1, f"research title missing or duplicated in bibliography: {stream['slug']}")
+    require(f"status           = {{{status_to_bib[stream['status_key']]}}}" in matching_bib[0], f"bibliography status differs: {stream['slug']}")
+    expected_authors = " and ".join(cv_zh["Publications"][index]["authors"])
+    require(f"author           = {{{expected_authors}}}" in matching_bib[0], f"CV author order differs: {stream['slug']}")
+    require(cv_zh["Publications"][index]["releaseDate"] == stream["status"], f"Chinese CV status differs: {stream['slug']}")
+    require(cv_en["publications"][index]["status"] == research_en[index]["status"], f"English CV status differs: {stream['slug']}")
+    matching_groups = [group for group in english["publications"] if any(entry["title"] == stream["paper_title"] for entry in group["entries"])]
+    require(len(matching_groups) == 1 and matching_groups[0]["status_key"] == stream["status_key"], f"English publication grouping differs: {stream['slug']}")
 
 english_page = (ROOT / "_pages/en.md").read_text(encoding="utf-8")
 for anchor in ("research", "publications", "projects", "cv"):

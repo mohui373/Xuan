@@ -54,8 +54,8 @@ research:
       title: AI, Organizational Change & Employee Behavior
       study_title: The Distilled Colleague
       paper_title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
-      status: In Preparation
-      status_key: preparation
+      status: Under Review
+      status_key: review
       question: When a colleague's knowledge is distilled into an AI agent but their position is eliminated, how do layoff survivors evaluate the organization and respond to subsequent requests for knowledge?
       summary: This study examines a situation in which an organization encodes a colleague's experience, judgment rules, and work procedures into an AI agent, retaining their knowledge while eliminating their position. A preregistered immersive scenario experiment compared this arrangement with conventional layoffs. Here, “distillation” is a metaphor for the encoding of experience and job replacement, not a specific model-training technique.
       design:
@@ -72,32 +72,28 @@ research:
         - Exploratory single-mediator models suggested associations linking moral evaluation and organizational trust separately to policy expression, and job insecurity to knowledge-hiding intentions. When moral evaluation and trust were included together, only the indirect-effect interval for moral evaluation excluded zero.
         - Neither the predicted positive association between work-knowledge psychological ownership and knowledge-hiding intentions nor its moderating role in the layoff-condition effect was supported.
       limitations: The study measures knowledge-hiding intentions in a simulated scenario, not actual hiding behavior. The “two weeks later” setting is hypothetical, not a longitudinal follow-up. Mediators were not independently manipulated, so mediation analyses do not establish causal mechanisms.
-      note: The experiment and primary analyses are complete; the manuscript is in preparation and has not been submitted. No public OSF links to data, code, or materials are currently available.
+      note: The manuscript is under review. No public OSF links to data, code, or materials are currently available.
 
     - number: "03"
       slug: moral-reminders
       title: Social Norms & Moral Decision-Making
-      study_title: Moral-Rule Priming, Achievement Motivation & Cheating
-      paper_title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
-      status: In Preparation
-      status_key: preparation
-      question: Why does the same moral reminder affect people differently?
-      summary: This research examines how moral-rule primes and achievement-motivation orientations jointly influence cheating and rule compliance.
+      study_title: "From Opportunity Awareness to Action: Repeated Moral Cues and the Dynamics of Cheating"
+      paper_title: "From Opportunity Awareness to Action: Repeated Moral Cues and the Dynamics of Cheating"
+      status: Ongoing Research
+      status_key: ongoing
+      question: Do repeated moral cues affect the onset and development of cheating, and does honesty-humility moderate this effect?
+      summary: This research examines how repeated masked moral cues relate to cheating choices, focusing on opportunity awareness, the first act of cheating, subsequent behavior, and the moderating role of honesty-humility.
       design:
-        - 2 × 2 between-subjects design; university student sample, N = 213
-        - Motive to avoid failure (MAF) vs. motive to achieve success (MAS), classified using a Ring Toss Game and validated with a revised achievement-motivation scale
-        - Moral-rule priming through a lexical-decision task vs. a blank-screen control
-        - An adapted Joker task measures cheating through exploitation of a feedback loophole, with cheating rate as the primary outcome
+        - Two-group between-subjects design; a target of at least 200 valid participants, randomly assigned to moral-priming or neutral-control conditions
+        - Following Joker task practice and lexical-decision priming, participants complete 40 formal Joker trials, with condition-specific masked words presented before each card draw
+        - Card judgments affect actual bonuses; choices at each cheating opportunity are recorded to examine overall cheating rates and cumulative cheating curves
+        - Post-task recall of opportunity awareness and measures of guilt, moral disengagement, subjective conflict, and honesty-humility
       diagram:
-        - Moral-rule reminder
-        - × Achievement-motivation orientation
-        - Cheating and rule compliance
-      findings:
-        - The main effect of moral-rule priming was not statistically significant, but achievement-motivation type interacted significantly with moral-rule priming.
-        - Moral-rule priming reduced cheating among MAF participants; no statistically significant difference was observed among MAS participants.
-        - Earlier recognition of the Joker task's feedback loophole was associated with higher cheating rates, suggesting a link with discovering an exploitable opportunity.
-      limitations: Achievement motivation was classified using a task and validated with a scale, not randomly manipulated; differences cannot be interpreted as causal effects of motivation type. The findings come from a specific student sample and task. A nonsignificant difference among MAS participants does not establish that moral reminders have no effect.
-      note: The manuscript is in preparation.
+        - Repeated masked moral cues vs. neutral cues
+        - Opportunity awareness, first cheating choice, and honesty-humility
+        - Cheating choices and cumulative cheating curves
+      limitations: The research is ongoing; the design and proposed questions do not represent established findings. Opportunity-awareness timing relies on retrospective recall, so temporal analyses are exploratory. Honesty-humility is measured, and its associations should not be interpreted as causal effects.
+      note: Research is ongoing, with no conclusions to report yet. The sample target and procedures reflect the current research plan.
 
 publications:
   - group: Manuscripts Under Review
@@ -109,14 +105,15 @@ publications:
         resource_url: https://osf.io/uke2j
         resource_label: Preregistration and materials on OSF
 
-  - group: Manuscripts in Preparation
-    status: In Preparation
-    status_key: preparation
-    entries:
       - title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
         authors: B. Xuan and H. Yang
-      - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
-        authors: B. Xuan, Y. Yang, and H. Yang
+
+  - group: Ongoing Research
+    status: Ongoing Research
+    status_key: ongoing
+    entries:
+      - title: "From Opportunity Awareness to Action: Repeated Moral Cues and the Dynamics of Cheating"
+        authors: B. Xuan and H. Yang
 
   - group: Published Work
     status: Published
@@ -223,9 +220,9 @@ cv:
     - title: "Reassignment-Related Setback: Why Self-Persuasion Works Better Because of Greater Conviction in One's Own Reasons"
       status: Under Review
     - title: "The Distilled Colleague: How AI Knowledge Distillation-Driven Layoffs Shape Survivor Attitudes and Knowledge Hiding"
-      status: In Preparation
-    - title: "Who Ignores the Rules? Exploring Individual Differences in Cheating Behavior Under Moral Reminders"
-      status: In Preparation
+      status: Under Review
+    - title: "From Opportunity Awareness to Action: Repeated Moral Cues and the Dynamics of Cheating"
+      status: Ongoing Research
     - title: "How Emergency Industry Management at Universities During Special Periods Shapes Students' School Identification: A Grounded-Theory Interview Study"
       status: Published, 2023
       venue: Liaoning Youth, 2023, No. 8, pp. 27–28
