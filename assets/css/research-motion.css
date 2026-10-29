@@ -1,0 +1,164 @@
+/* Original, dependency-free motion for the forest research archive.
+   Inspired by Magic UI's reveal/highlight patterns; no registry code is bundled. */
+.research-motion {
+  --research-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --research-feedback: 180ms;
+  --research-arrival: 420ms;
+}
+
+.research-motion .research-question-band,
+.research-motion .page-intro,
+.research-motion .stream-row {
+  position: relative;
+  isolation: isolate;
+}
+
+.research-motion .research-compass {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: -1;
+  width: clamp(4.5rem, 12vw, 9rem);
+  height: auto;
+  color: currentColor;
+  pointer-events: none;
+  opacity: 0.14;
+  stroke: currentColor;
+  stroke-width: 1;
+}
+
+.research-motion .compass-needle {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 650ms var(--research-ease);
+}
+
+.research-motion .stream-row::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(100deg, var(--site-accent-soft), transparent 85%);
+  border-left: 2px solid var(--site-warm);
+  content: "";
+  opacity: 0;
+  transition: opacity var(--research-feedback) ease;
+}
+
+.research-motion .stream-title-link {
+  display: inline-flex;
+  gap: 0.65rem;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 0.3em;
+}
+
+.research-motion .stream-title-link > span {
+  color: var(--site-warm);
+  font-size: 0.8em;
+  transition: transform var(--research-feedback) var(--research-ease);
+}
+
+.research-motion .stream-row:focus-within::before {
+  opacity: 0.8;
+}
+
+.research-motion .stream-title-link:focus-visible,
+.research-motion .research-index a:focus-visible,
+.research-motion .site-action:focus-visible {
+  outline: 2px solid var(--site-warm);
+  outline-offset: 4px;
+}
+
+.research-motion .research-index a,
+.research-motion .site-action {
+  position: relative;
+  overflow: hidden;
+  transition: transform var(--research-feedback) var(--research-ease);
+}
+
+.research-motion .research-index a::after,
+.research-motion .site-action-primary::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 25%, currentColor 50%, transparent 75%);
+  content: "";
+  pointer-events: none;
+  opacity: 0.12;
+  transform: translateX(-150%);
+  transition: transform 520ms var(--research-ease);
+}
+
+.research-motion .research-index a::before {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.7rem;
+  left: 1rem;
+  height: 2px;
+  background: var(--site-warm);
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--research-arrival) var(--research-ease);
+}
+
+.research-motion .research-index a:focus-visible::before {
+  transform: scaleX(1);
+}
+
+.research-motion .site-action:active {
+  transform: scale(0.98);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .research-motion .research-question-band:hover .compass-needle,
+  .research-motion .page-intro:hover .compass-needle {
+    transform: rotate(24deg);
+  }
+
+  .research-motion .stream-row:hover::before {
+    opacity: 0.8;
+  }
+
+  .research-motion .stream-title-link:hover {
+    text-decoration: underline;
+  }
+
+  .research-motion .stream-title-link:hover > span {
+    transform: translate(2px, -2px);
+  }
+
+  .research-motion .research-index a:hover::before {
+    transform: scaleX(1);
+  }
+
+  .research-motion .research-index a:hover::after,
+  .research-motion .site-action-primary:hover::after {
+    transform: translateX(150%);
+  }
+
+  .research-motion .site-action:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .research-motion *,
+  .research-motion *::before,
+  .research-motion *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .research-motion .compass-needle,
+  .research-motion .stream-title-link > span,
+  .research-motion .site-action {
+    transform: none !important;
+  }
+
+  .research-motion .research-index a::after,
+  .research-motion .site-action-primary::after {
+    display: none;
+  }
+}
